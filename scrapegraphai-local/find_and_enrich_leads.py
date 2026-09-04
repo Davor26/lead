@@ -286,7 +286,6 @@ def extraire_contact(url: str) -> dict:
         "llm": LLM_CONFIG,
         "verbose": False,
         "headless": True,
-        "use_soup": True,
     }
     prompt = (
         "Cherche sur cette page les informations de contact de l'entreprise : "

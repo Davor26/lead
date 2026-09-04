@@ -33,11 +33,12 @@ graph_config = {
     },
     "verbose": True,
     "headless": True,
-    # example.com est une page 100% statique (pas de JS) : on récupère le HTML
-    # avec de simples requêtes HTTP (requests) plutôt qu'un navigateur Playwright.
-    # Mettre "use_soup": False (et lancer `uv run playwright install`) pour
-    # scraper des pages qui nécessitent du rendu JavaScript.
-    "use_soup": True,
+    # NB : SmartScraperGraph (v2.2.2) ne transmet pas "use_soup" au nœud de
+    # récupération de page (voir smart_scraper_graph.py, FetchNode reçoit
+    # seulement llm_model/force/cut/loader_kwargs/browser_base/scrape_do/
+    # storage_state) : Playwright est toujours utilisé pour aller chercher la
+    # page, même sur une page statique comme example.com. Il faut donc avoir
+    # lancé `uv run playwright install` avant d'exécuter ce script.
 }
 
 smart_scraper_graph = SmartScraperGraph(

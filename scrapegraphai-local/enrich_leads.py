@@ -85,9 +85,6 @@ def extraire_contact(url: str) -> dict:
         "llm": LLM_CONFIG,
         "verbose": False,
         "headless": True,
-        # Certains sites nécessitent du JS : si use_soup échoue ou ne trouve
-        # rien, relancer avec "use_soup": False et `uv run playwright install`.
-        "use_soup": True,
     }
 
     prompt = (

@@ -24,11 +24,11 @@ construction du graphe `SmartScraperGraph` a été validée localement (sans app
 être exécutés sur votre machine réelle**, en suivant les étapes ci-dessous — votre machine n'a
 probablement pas cette restriction réseau.
 
-**Bonne nouvelle** : `example.com` est une page 100% statique (sans JavaScript). Le script
-`local_smartscraper_example.py` utilise donc `"use_soup": True` (simple requête HTTP via
-`requests`) plutôt que Playwright — vous n'avez donc **pas besoin** de faire fonctionner
-`playwright install` pour ce test précis (utile uniquement si vous scrapez ensuite des pages avec
-rendu JavaScript).
+**Correction (confirmée sur une exécution réelle) :** `SmartScraperGraph` (v2.2.2) ne transmet
+**jamais** `use_soup` au nœud de récupération de page — voir `smart_scraper_graph.py`, où seuls
+`llm_model`/`force`/`cut`/`loader_kwargs`/`browser_base`/`scrape_do`/`storage_state` sont passés au
+`FetchNode`. Playwright est donc toujours nécessaire, même pour une page statique comme
+`example.com`. **`uv run playwright install` (étape 4) est obligatoire avant l'étape 5.**
 
 ## Contenu du dossier
 
@@ -44,7 +44,7 @@ rendu JavaScript).
 | Python | `>=3.12,<4.0` | `python3.12` / `python3.13` utilisés (`.python-version` = 3.12) |
 | uv | dernière version | déjà installé (`uv 0.8.17` au moment de la préparation) |
 | Dépendances Python (`scrapegraphai` 2.2.2, etc.) | — | installées via `uv sync` (réussi dans ce dépôt) |
-| Playwright (binaires navigateurs) | Chromium/Firefox/WebKit | **échec ici** (CDN bloqué) — à relancer sur votre machine, voir §4 |
+| Playwright (binaires navigateurs) | Chromium/Firefox/WebKit | **échec ici** (CDN bloqué) — obligatoire, à relancer sur votre machine, voir §4 |
 | Ollama | dernière version | **à installer sur votre machine**, voir §2 |
 
 ## 2. Installer Ollama (sur votre machine, pas dans ce sandbox)
@@ -119,13 +119,14 @@ graph_config = {
     },
     "verbose": True,
     "headless": True,
-    "use_soup": True,  # example.com est statique : pas besoin de Playwright
 }
 ```
 
 Ce script a été validé sans réseau dans le sandbox (construction du graphe `SmartScraperGraph`,
 3 nœuds : `Fetch` → `ParseNode` → `GenerateAnswer`), mais pas exécuté de bout en bout (Ollama et
-`example.com` inaccessibles depuis ce sandbox).
+`example.com` inaccessibles depuis ce sandbox). **Assurez-vous d'avoir lancé `uv run playwright
+install` (étape 4) avant cette étape**, sinon vous aurez une erreur
+`BrowserType.launch: Executable doesn't exist...`.
 
 Il envoie le prompt *"Résume le contenu de la page et indique son titre principal."* sur
 `https://example.com` et affiche le JSON résultat ainsi que les infos d'exécution
