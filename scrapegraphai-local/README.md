@@ -15,10 +15,20 @@ GitHub, PyPI, npm... autorisés) qui bloque plusieurs hôtes nécessaires :
   binaires des navigateurs Playwright (Chromium) depuis ce sandbox, même si `playwright install`
   s'exécute (l'erreur observée est `403 request blocked: no rule or allowlist entry allows host`).
 
-Le clonage du dépôt et `uv sync` (dépendances Python, depuis PyPI) ont donc réussi ici, mais
-**l'installation d'Ollama, le téléchargement du modèle, `playwright install` (téléchargement des
-navigateurs) et le test final sur `example.com` doivent être exécutés sur votre machine réelle**,
-en suivant les étapes ci-dessous — votre machine n'a probablement pas cette restriction réseau.
+Même `https://example.com` (la cible du test) est bloqué depuis ce sandbox — la politique réseau
+y est très restrictive (GitHub, PyPI, npm... seulement).
+
+Le clonage du dépôt et `uv sync` (dépendances Python, depuis PyPI) ont donc réussi ici, et la
+construction du graphe `SmartScraperGraph` a été validée localement (sans appel réseau). Mais
+**l'installation d'Ollama, le téléchargement du modèle et le test final sur `example.com` doivent
+être exécutés sur votre machine réelle**, en suivant les étapes ci-dessous — votre machine n'a
+probablement pas cette restriction réseau.
+
+**Bonne nouvelle** : `example.com` est une page 100% statique (sans JavaScript). Le script
+`local_smartscraper_example.py` utilise donc `"use_soup": True` (simple requête HTTP via
+`requests`) plutôt que Playwright — vous n'avez donc **pas besoin** de faire fonctionner
+`playwright install` pour ce test précis (utile uniquement si vous scrapez ensuite des pages avec
+rendu JavaScript).
 
 ## Contenu du dossier
 
@@ -109,8 +119,13 @@ graph_config = {
     },
     "verbose": True,
     "headless": True,
+    "use_soup": True,  # example.com est statique : pas besoin de Playwright
 }
 ```
+
+Ce script a été validé sans réseau dans le sandbox (construction du graphe `SmartScraperGraph`,
+3 nœuds : `Fetch` → `ParseNode` → `GenerateAnswer`), mais pas exécuté de bout en bout (Ollama et
+`example.com` inaccessibles depuis ce sandbox).
 
 Il envoie le prompt *"Résume le contenu de la page et indique son titre principal."* sur
 `https://example.com` et affiche le JSON résultat ainsi que les infos d'exécution

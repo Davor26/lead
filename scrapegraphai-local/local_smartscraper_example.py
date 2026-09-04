@@ -33,6 +33,11 @@ graph_config = {
     },
     "verbose": True,
     "headless": True,
+    # example.com est une page 100% statique (pas de JS) : on récupère le HTML
+    # avec de simples requêtes HTTP (requests) plutôt qu'un navigateur Playwright.
+    # Mettre "use_soup": False (et lancer `uv run playwright install`) pour
+    # scraper des pages qui nécessitent du rendu JavaScript.
+    "use_soup": True,
 }
 
 smart_scraper_graph = SmartScraperGraph(
