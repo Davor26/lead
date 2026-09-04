@@ -6,11 +6,19 @@ configurée pour tourner **entièrement en local avec Ollama**, sans clé API ni
 ## ⚠️ Important — où exécuter quoi
 
 Ce dépôt Git a été préparé depuis une session Claude Code exécutée dans un **sandbox cloud
-éphémère**, pas sur votre ordinateur. Ce sandbox n'a pas accès à `ollama.com` /
-`registry.ollama.ai` (bloqué par sa politique réseau) : impossible d'y installer Ollama ou d'y
-télécharger un modèle. Le clonage du dépôt, `uv sync` et `playwright install` ont donc été faits
-ici, mais **l'installation d'Ollama, le téléchargement du modèle et le test final sur
-`example.com` doivent être exécutés sur votre machine réelle**, en suivant les étapes ci-dessous.
+éphémère**, pas sur votre ordinateur. Ce sandbox a une politique réseau restrictive (uniquement
+GitHub, PyPI, npm... autorisés) qui bloque plusieurs hôtes nécessaires :
+
+- `ollama.com` / `registry.ollama.ai` / `huggingface.co` → impossible d'installer Ollama ou de
+  télécharger un modèle depuis ce sandbox.
+- `cdn.playwright.dev` / `playwright.download.prss.microsoft.com` → impossible de télécharger les
+  binaires des navigateurs Playwright (Chromium) depuis ce sandbox, même si `playwright install`
+  s'exécute (l'erreur observée est `403 request blocked: no rule or allowlist entry allows host`).
+
+Le clonage du dépôt et `uv sync` (dépendances Python, depuis PyPI) ont donc réussi ici, mais
+**l'installation d'Ollama, le téléchargement du modèle, `playwright install` (téléchargement des
+navigateurs) et le test final sur `example.com` doivent être exécutés sur votre machine réelle**,
+en suivant les étapes ci-dessous — votre machine n'a probablement pas cette restriction réseau.
 
 ## Contenu du dossier
 
@@ -25,7 +33,8 @@ ici, mais **l'installation d'Ollama, le téléchargement du modèle et le test f
 |---|---|---|
 | Python | `>=3.12,<4.0` | `python3.12` / `python3.13` utilisés (`.python-version` = 3.12) |
 | uv | dernière version | déjà installé (`uv 0.8.17` au moment de la préparation) |
-| Playwright | navigateurs Chromium/Firefox/WebKit | installés via `uv run playwright install` |
+| Dépendances Python (`scrapegraphai` 2.2.2, etc.) | — | installées via `uv sync` (réussi dans ce dépôt) |
+| Playwright (binaires navigateurs) | Chromium/Firefox/WebKit | **échec ici** (CDN bloqué) — à relancer sur votre machine, voir §4 |
 | Ollama | dernière version | **à installer sur votre machine**, voir §2 |
 
 ## 2. Installer Ollama (sur votre machine, pas dans ce sandbox)
