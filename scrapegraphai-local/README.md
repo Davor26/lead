@@ -161,6 +161,64 @@ Comme pour le test `example.com`, ce script n'a pas pu être exécuté dans le s
 syntaxiquement uniquement (`python -m py_compile` / import OK), à exécuter sur une machine avec
 accès réseau complet.
 
+## 8. Recherche + enrichissement réutilisable (`find_and_enrich_leads.py`)
+
+Script réutilisable qui combine les étapes précédentes en une seule exécution, pensée pour
+tourner régulièrement sans dupliquer de données :
+
+- Recherche de nouvelles entreprises (< 50 salariés, Île-de-France, tous secteurs) via l'API
+  publique **gratuite et sans clé** [recherche-entreprises.api.gouv.fr](https://recherche-entreprises.api.gouv.fr/)
+  (remplace Pappers pour cette étape : pas de quota payant, aucune inscription).
+- Ignore les entreprises déjà présentes dans `leads.csv` (par SIREN).
+- Cherche le site officiel (DuckDuckGo, gratuit) puis extrait dirigeant/email/téléphone avec
+  `SmartScraperGraph` + Ollama local, comme `enrich_leads.py`.
+- N'ajoute que des lignes **nouvelles** à `leads.csv`, en dédupliquant par domaine de site web et
+  par email par rapport à l'existant (jamais de doublon, jamais de ligne existante modifiée).
+- Conserve `url_source` et ajoute une colonne `date_ajout` (date du jour, ISO `AAAA-MM-JJ`).
+- Ralentit automatiquement (pause + nouvel essai, délai qui double à chaque échec) en cas de
+  limitation (HTTP 429) ou d'erreur réseau sur l'API de recherche, DuckDuckGo ou le scraping.
+- Journalise clairement chaque étape et chaque erreur dans `scrapegraphai-local/logs/leads.log`
+  (fichier + affichage console).
+
+### Commande pour le lancer manuellement
+
+```bash
+cd scrapegraphai-local/Scrapegraph-ai
+uv run python ../find_and_enrich_leads.py
+```
+
+Validé dans le sandbox : syntaxe, chargement du module, logique de sauvegarde/déduplication
+(test avec un `leads.csv` temporaire). La recherche d'entreprises et le scraping n'ont pas pu être
+testés de bout en bout ici (réseau bloqué, comme documenté plus haut) — à vérifier lors de la
+première exécution manuelle sur votre machine avant d'activer l'automatisation ci-dessous.
+
+### Exécution automatique chaque matin à 8h (Windows) — non activée
+
+Fichiers préparés, **rien n'est activé** :
+
+- `scrapegraphai-local/run_leads_windows.bat` : lance le script et journalise la sortie dans
+  `scrapegraphai-local/logs/run_windows.log`. **Ouvrez ce fichier et remplacez la ligne
+  `set LEAD_REPO=C:\Chemin\vers\lead` par le chemin réel où vous avez cloné ce dépôt** (celui qui
+  contient le dossier `scrapegraphai-local\`).
+
+Commande exacte pour créer la tâche planifiée (à exécuter vous-même dans une invite de commandes,
+une fois le chemin ci-dessus corrigé) :
+
+```bat
+schtasks /Create /TN "Leads ScrapeGraphAI IDF" /TR "\"C:\Chemin\vers\lead\scrapegraphai-local\run_leads_windows.bat\"" /SC DAILY /ST 08:00 /F
+```
+
+- `/TN` : nom de la tâche dans le Planificateur de tâches Windows.
+- `/TR` : chemin complet vers `run_leads_windows.bat` (à adapter à votre chemin réel).
+- `/SC DAILY /ST 08:00` : exécution quotidienne à 8h00, heure de la machine.
+- `/F` : force la création même si une tâche du même nom existe déjà.
+
+Pour supprimer la tâche ensuite : `schtasks /Delete /TN "Leads ScrapeGraphAI IDF" /F`.
+
+**Cette commande n'a pas été exécutée** : je n'ai pas accès à votre machine Windows depuis ce
+sandbox cloud. Lancez-la vous-même seulement après avoir testé la commande manuelle ci-dessus au
+moins une fois avec succès et vérifié le chemin dans `run_leads_windows.bat`.
+
 ## Pourquoi un submodule Git plutôt qu'un simple `pip install` ?
 
 La demande initiale demandait de cloner le dépôt officiel puis d'exécuter `uv sync` +
