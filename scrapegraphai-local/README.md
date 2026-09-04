@@ -138,6 +138,29 @@ contenir un résumé mentionnant le titre `Example Domain` et le texte d'exemple
 Aucune clé API n'est nécessaire : `graph_config` ne référence aucun `openai_api_key` ni service
 payant, uniquement `base_url` vers l'instance Ollama locale.
 
+## 7. Enrichir des leads (dirigeant / email / téléphone)
+
+`../leads.csv` (à la racine du dépôt) contient des entreprises réelles trouvées via l'API
+Pappers (nom, ville, secteur, SIREN, URL source) mais sans site web / dirigeant / email /
+téléphone (non disponibles gratuitement).
+
+`enrich_leads.py` complète ces champs pour chaque ligne :
+1. Recherche du site officiel via DuckDuckGo (`scrapegraphai.utils.research_web.search_on_web`,
+   gratuit, sans clé API), en écartant les annuaires/réseaux sociaux.
+2. Scraping du site trouvé avec `SmartScraperGraph` (Ollama local) pour extraire dirigeant,
+   email, téléphone.
+3. Réécriture de `leads.csv` avec les résultats.
+
+```bash
+cd scrapegraphai-local/Scrapegraph-ai
+uv run python ../enrich_leads.py
+```
+
+Comme pour le test `example.com`, ce script n'a pas pu être exécuté dans le sandbox cloud
+(recherche web et sites cibles bloqués par la politique réseau) : script écrit et validé
+syntaxiquement uniquement (`python -m py_compile` / import OK), à exécuter sur une machine avec
+accès réseau complet.
+
 ## Pourquoi un submodule Git plutôt qu'un simple `pip install` ?
 
 La demande initiale demandait de cloner le dépôt officiel puis d'exécuter `uv sync` +
