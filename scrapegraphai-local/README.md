@@ -197,15 +197,13 @@ première exécution manuelle sur votre machine avant d'activer l'automatisation
 Fichiers préparés, **rien n'est activé** :
 
 - `scrapegraphai-local/run_leads_windows.bat` : lance le script et journalise la sortie dans
-  `scrapegraphai-local/logs/run_windows.log`. **Ouvrez ce fichier et remplacez la ligne
-  `set LEAD_REPO=C:\Chemin\vers\lead` par le chemin réel où vous avez cloné ce dépôt** (celui qui
-  contient le dossier `scrapegraphai-local\`).
+  `scrapegraphai-local/logs/run_windows.log`. Déjà configuré avec votre chemin réel
+  (`C:\Users\Home\Documents\lead`).
 
-Commande exacte pour créer la tâche planifiée (à exécuter vous-même dans une invite de commandes,
-une fois le chemin ci-dessus corrigé) :
+Commande exacte pour créer la tâche planifiée (à exécuter vous-même dans une invite de commandes) :
 
 ```bat
-schtasks /Create /TN "Leads ScrapeGraphAI IDF" /TR "\"C:\Chemin\vers\lead\scrapegraphai-local\run_leads_windows.bat\"" /SC DAILY /ST 08:00 /F
+schtasks /Create /TN "Leads ScrapeGraphAI IDF" /TR "\"C:\Users\Home\Documents\lead\scrapegraphai-local\run_leads_windows.bat\"" /SC DAILY /ST 08:00 /F
 ```
 
 - `/TN` : nom de la tâche dans le Planificateur de tâches Windows.
