@@ -132,7 +132,23 @@ Il envoie le prompt *"Résume le contenu de la page et indique son titre princip
 `https://example.com` et affiche le JSON résultat ainsi que les infos d'exécution
 (tokens, coût — nul ici puisque 100% local).
 
-## 6. Résultat attendu
+## 6. Résultat obtenu (test réel, 2026-09-05)
+
+Exécuté avec succès sur la machine Windows de l'utilisateur (`C:\Users\Home\Documents\lead`) :
+
+```
+Le titre principal de la page est "Example Domain" et le contenu est une description de ce
+domaine, qui est utilisé pour les exemples de documentation sans nécessiter de permission.
+```
+
+- Modèle utilisé : `llama3.1:8b` via Ollama local (`http://localhost:11434`)
+- Coût : `$0.0000` (aucune API payante, confirmé par les statistiques d'exécution)
+- Temps total : 106s (Fetch 6s, ParseNode 7s, GenerateAnswer 93s)
+- Le warning `None of the requested terms... appear in the parsed content` est inoffensif :
+  `example.com` ne fait que 169 caractères, l'heuristique de pré-filtrage de ScrapeGraphAI ne
+  trouve pas de correspondance exacte, mais le LLM lit et résume correctement la page malgré tout.
+
+## 6bis. Résultat attendu (rappel, avant exécution)
 
 `example.com` est une page statique très simple ("Example Domain"). Le résultat JSON doit
 contenir un résumé mentionnant le titre `Example Domain` et le texte d'exemple de la page.
