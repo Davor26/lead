@@ -32,6 +32,7 @@ import logging
 import random
 import re
 import time
+import unicodedata
 from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
@@ -101,11 +102,49 @@ DOMAINES_EXCLUS = (
     "recherche-entreprises.api.gouv.fr",
     "annuaire-entreprises.data.gouv.fr",
     "maps.app.goo.gl",
-    # Annuaires professionnels découverts en pratique (pages très volumineuses,
-    # pas le site officiel de l'entreprise) :
+    # Annuaires / liens publicitaires / sites tiers découverts en pratique
+    # (jamais le site officiel de l'entreprise) :
     "e-pro.fr",
     "lefigaro.fr",
+    "bing.com",
+    "comment-contacter.fr",
 )
+
+MOTS_VIDES_ENTREPRISE = {
+    "societe", "france", "groupe", "compagnie", "entreprise", "sarl", "sas",
+    "sasu", "eurl", "holding", "international", "national", "generale",
+}
+
+
+def _slug(texte: str) -> str:
+    """Normalise un texte pour comparaison : minuscules, sans accents, sans
+    ponctuation (ex. "San Marina" -> "sanmarina", "www.san-marina.fr" ->
+    "wwwsanmarinafr")."""
+    texte = unicodedata.normalize("NFKD", texte).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]", "", texte.lower())
+
+
+def _mots_significatifs_du_nom(nom_entreprise: str) -> list[str]:
+    """Extrait les mots du nom d'entreprise assez distinctifs pour être
+    cherchés dans un nom de domaine (ex. "SAN MARINA (SOCIETE SAN MARINA)"
+    -> ["san", "marina"])."""
+    nom_sans_parentheses = re.sub(r"\([^)]*\)", " ", nom_entreprise)
+    mots = []
+    for mot in nom_sans_parentheses.split():
+        slug = _slug(mot)
+        if len(slug) >= 3 and slug not in MOTS_VIDES_ENTREPRISE:
+            mots.append(slug)
+    return mots
+
+
+def _domaine_correspond_au_nom(url: str, mots_nom: list[str]) -> bool:
+    """Vrai si le domaine du candidat contient un mot distinctif du nom de
+    l'entreprise (signe fort que c'est bien son site officiel, ex. "marina"
+    dans "www.san-marina.fr")."""
+    if not mots_nom:
+        return False
+    domaine_slug = _slug(urlparse(url).netloc)
+    return any(mot in domaine_slug for mot in mots_nom)
 
 # Signe quasi certain d'une page d'annuaire (fiche générée automatiquement)
 # plutôt que du site officiel d'une entreprise : un identifiant numérique
@@ -295,6 +334,13 @@ def _taille_page_raisonnable(url: str) -> bool:
 
 
 def trouver_site_officiel(nom_entreprise: str, ville: str) -> str | None:
+    """Cherche le site officiel d'une entreprise. Les résultats de recherche
+    contiennent souvent des annuaires, articles tiers ou liens publicitaires
+    plutôt que le vrai site : on priorise donc, dans cet ordre, un domaine
+    qui (1) contient un mot distinctif du nom de l'entreprise et n'a pas
+    l'air d'être une fiche d'annuaire, (2) contient ce mot malgré tout,
+    (3) n'a l'air ni d'une fiche d'annuaire ni d'une page démesurée,
+    (4) n'importe quel résultat restant non explicitement exclu."""
     requete = f"{nom_entreprise} {ville} site officiel"
     try:
         resultats = avec_backoff(
@@ -309,26 +355,28 @@ def trouver_site_officiel(nom_entreprise: str, ville: str) -> str | None:
         logger.exception("Recherche de site officiel échouée pour %r", nom_entreprise)
         return None
 
-    candidats_ecartes_annuaire = []
-    for url in resultats:
-        domaine = urlparse(url).netloc.lower()
-        if not domaine or any(exclu in domaine for exclu in DOMAINES_EXCLUS):
-            continue
-        if MOTIF_ANNUAIRE.search(urlparse(url).path):
-            # Ressemble à une fiche d'annuaire générée (SIREN/SIRET/code
-            # dans l'URL) : on la garde en dernier recours seulement.
-            candidats_ecartes_annuaire.append(url)
-            continue
-        if _taille_page_raisonnable(url):
-            return url
+    mots_nom = _mots_significatifs_du_nom(nom_entreprise)
+    candidats = [
+        url for url in resultats
+        if urlparse(url).netloc.lower()
+        and not any(exclu in urlparse(url).netloc.lower() for exclu in DOMAINES_EXCLUS)
+    ]
+    if not candidats:
+        return None
 
-    # Aucun résultat "propre" : on retente les fiches d'annuaire écartées,
-    # toujours en vérifiant leur taille.
-    for url in candidats_ecartes_annuaire:
-        if _taille_page_raisonnable(url):
-            return url
+    def est_propre(url: str) -> bool:
+        return not MOTIF_ANNUAIRE.search(urlparse(url).path)
 
-    return candidats_ecartes_annuaire[0] if candidats_ecartes_annuaire else None
+    for url in candidats:
+        if _domaine_correspond_au_nom(url, mots_nom) and est_propre(url) and _taille_page_raisonnable(url):
+            return url
+    for url in candidats:
+        if _domaine_correspond_au_nom(url, mots_nom):
+            return url
+    for url in candidats:
+        if est_propre(url) and _taille_page_raisonnable(url):
+            return url
+    return candidats[0]
 
 
 def extraire_contact(url: str) -> dict:
