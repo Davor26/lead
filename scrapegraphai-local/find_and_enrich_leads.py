@@ -26,9 +26,11 @@ Voir README.md pour la configuration de l'exécution automatique quotidienne.
 
 from __future__ import annotations
 
+import concurrent.futures
 import csv
 import logging
 import random
+import re
 import time
 from dataclasses import dataclass, field
 from datetime import date
@@ -99,7 +101,25 @@ DOMAINES_EXCLUS = (
     "recherche-entreprises.api.gouv.fr",
     "annuaire-entreprises.data.gouv.fr",
     "maps.app.goo.gl",
+    # Annuaires professionnels découverts en pratique (pages très volumineuses,
+    # pas le site officiel de l'entreprise) :
+    "e-pro.fr",
+    "lefigaro.fr",
 )
+
+# Signe quasi certain d'une page d'annuaire (fiche générée automatiquement)
+# plutôt que du site officiel d'une entreprise : un identifiant numérique
+# long (SIREN/SIRET/code interne) dans l'URL, ex. .../entreprise-321875205
+# ou .../Paris-8,75108,524Z.
+MOTIF_ANNUAIRE = re.compile(r"\d{4,}")
+
+# Une page bien plus longue que ça est presque toujours un annuaire ou un
+# gros site (pas une simple page de contact) : le scraper via un LLM local
+# sur CPU peut y passer des dizaines de minutes. On tente quand même de la
+# scraper (TIMEOUT_SCRAPING_SECONDES la bornera), mais on préfère d'abord un
+# autre résultat de recherche plus raisonnable si disponible.
+TAILLE_MAX_RAISONNABLE_OCTETS = 300_000
+TIMEOUT_SCRAPING_SECONDES = 150
 
 # ---------------------------------------------------------------------------
 # Journalisation
@@ -259,6 +279,21 @@ def rechercher_nouvelles_entreprises(sirens_deja_connus: set[str], limite: int) 
 # ---------------------------------------------------------------------------
 
 
+def _taille_page_raisonnable(url: str) -> bool:
+    """Vérifie rapidement (sans tout télécharger) qu'une page n'est pas
+    démesurément grosse, signe probable d'un annuaire plutôt que d'un site
+    d'entreprise classique. En cas de doute (erreur, taille inconnue), on
+    considère la page comme acceptable plutôt que de la rejeter à tort."""
+    try:
+        reponse = requests.head(url, timeout=5, allow_redirects=True)
+        taille = reponse.headers.get("Content-Length")
+        if taille is not None and int(taille) > TAILLE_MAX_RAISONNABLE_OCTETS:
+            return False
+    except Exception:
+        pass
+    return True
+
+
 def trouver_site_officiel(nom_entreprise: str, ville: str) -> str | None:
     requete = f"{nom_entreprise} {ville} site officiel"
     try:
@@ -274,11 +309,26 @@ def trouver_site_officiel(nom_entreprise: str, ville: str) -> str | None:
         logger.exception("Recherche de site officiel échouée pour %r", nom_entreprise)
         return None
 
+    candidats_ecartes_annuaire = []
     for url in resultats:
         domaine = urlparse(url).netloc.lower()
-        if domaine and not any(exclu in domaine for exclu in DOMAINES_EXCLUS):
+        if not domaine or any(exclu in domaine for exclu in DOMAINES_EXCLUS):
+            continue
+        if MOTIF_ANNUAIRE.search(urlparse(url).path):
+            # Ressemble à une fiche d'annuaire générée (SIREN/SIRET/code
+            # dans l'URL) : on la garde en dernier recours seulement.
+            candidats_ecartes_annuaire.append(url)
+            continue
+        if _taille_page_raisonnable(url):
             return url
-    return None
+
+    # Aucun résultat "propre" : on retente les fiches d'annuaire écartées,
+    # toujours en vérifiant leur taille.
+    for url in candidats_ecartes_annuaire:
+        if _taille_page_raisonnable(url):
+            return url
+
+    return candidats_ecartes_annuaire[0] if candidats_ecartes_annuaire else None
 
 
 def extraire_contact(url: str) -> dict:
@@ -294,12 +344,24 @@ def extraire_contact(url: str) -> dict:
         'de la forme {"dirigeant": "...", "email": "...", "telephone": "..."}. '
         "Mets une chaîne vide si une information est introuvable."
     )
+    graph = SmartScraperGraph(prompt=prompt, source=url, config=graph_config)
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+    future = executor.submit(avec_backoff, graph.run, contexte=f"Scraping de {url}")
     try:
-        graph = SmartScraperGraph(prompt=prompt, source=url, config=graph_config)
-        resultat = avec_backoff(graph.run, contexte=f"Scraping de {url}")
+        resultat = future.result(timeout=TIMEOUT_SCRAPING_SECONDES)
+    except concurrent.futures.TimeoutError:
+        logger.warning(
+            "Scraping de %s interrompu après %ds (page probablement trop "
+            "volumineuse pour le LLM local) — entreprise ignorée pour ce champ.",
+            url, TIMEOUT_SCRAPING_SECONDES,
+        )
+        executor.shutdown(wait=False)
+        return {"dirigeant": "", "email": "", "telephone": ""}
     except Exception:
         logger.exception("Scraping échoué pour %s", url)
+        executor.shutdown(wait=False)
         return {"dirigeant": "", "email": "", "telephone": ""}
+    executor.shutdown(wait=False)
 
     return {
         "dirigeant": (resultat or {}).get("dirigeant", "") or "",
