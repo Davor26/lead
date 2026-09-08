@@ -334,13 +334,14 @@ def _taille_page_raisonnable(url: str) -> bool:
 
 
 def trouver_site_officiel(nom_entreprise: str, ville: str) -> str | None:
-    """Cherche le site officiel d'une entreprise. Les résultats de recherche
-    contiennent souvent des annuaires, articles tiers ou liens publicitaires
-    plutôt que le vrai site : on priorise donc, dans cet ordre, un domaine
-    qui (1) contient un mot distinctif du nom de l'entreprise et n'a pas
-    l'air d'être une fiche d'annuaire, (2) contient ce mot malgré tout,
-    (3) n'a l'air ni d'une fiche d'annuaire ni d'une page démesurée,
-    (4) n'importe quel résultat restant non explicitement exclu."""
+    """Cherche le site officiel d'une entreprise. Filtre strict : un domaine
+    n'est retenu que s'il contient un mot distinctif du nom de l'entreprise
+    (ex. "marina" dans "www.san-marina.fr"). Sans ça, les résultats de
+    recherche (annuaires, articles tiers, pubs, sites sans rapport comme
+    la-mairie.com pour "NEW NAF NAF") sont trop souvent le mauvais site : on
+    préfère renvoyer aucun site plutôt qu'un site probablement faux. Priorité
+    parmi les domaines qui correspondent : ceux qui n'ont pas l'air d'être une
+    fiche d'annuaire générée et dont la page n'est pas démesurée."""
     requete = f"{nom_entreprise} {ville} site officiel"
     try:
         resultats = avec_backoff(
@@ -356,10 +357,14 @@ def trouver_site_officiel(nom_entreprise: str, ville: str) -> str | None:
         return None
 
     mots_nom = _mots_significatifs_du_nom(nom_entreprise)
+    if not mots_nom:
+        return None
+
     candidats = [
         url for url in resultats
         if urlparse(url).netloc.lower()
         and not any(exclu in urlparse(url).netloc.lower() for exclu in DOMAINES_EXCLUS)
+        and _domaine_correspond_au_nom(url, mots_nom)
     ]
     if not candidats:
         return None
@@ -368,11 +373,12 @@ def trouver_site_officiel(nom_entreprise: str, ville: str) -> str | None:
         return not MOTIF_ANNUAIRE.search(urlparse(url).path)
 
     for url in candidats:
-        if _domaine_correspond_au_nom(url, mots_nom) and est_propre(url) and _taille_page_raisonnable(url):
+        if est_propre(url) and _taille_page_raisonnable(url):
             return url
     for url in candidats:
-        if _domaine_correspond_au_nom(url, mots_nom):
+        if est_propre(url):
             return url
+    return candidats[0]
     for url in candidats:
         if est_propre(url) and _taille_page_raisonnable(url):
             return url
