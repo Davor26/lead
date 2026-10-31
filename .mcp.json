@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "muapi": {
+      "command": "muapi",
+      "args": ["mcp", "serve"]
+    }
+  }
+}
