@@ -4,3 +4,4 @@ projects/*/assets/footage/**/*.part
 projects/*/assets/voice/*.onnx
 projects/*/assets/audio/**/*.wav
 output/**/*.mp4
+projects/*/samples/
