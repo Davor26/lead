@@ -1,0 +1,3 @@
+projects/*/assets/footage/**/*.mp4
+projects/*/assets/footage/**/*.webm
+projects/*/assets/footage/**/*.part
