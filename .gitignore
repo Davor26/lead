@@ -1,3 +1,6 @@
 projects/*/assets/footage/**/*.mp4
 projects/*/assets/footage/**/*.webm
 projects/*/assets/footage/**/*.part
+projects/*/assets/voice/*.onnx
+projects/*/assets/audio/**/*.wav
+output/**/*.mp4
