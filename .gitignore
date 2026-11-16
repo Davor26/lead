@@ -9,3 +9,4 @@ projects/*/graphics/renders/
 projects/*/graphics/review/
 projects/*/graphics/index.html
 projects/*/graphics/data/
+__pycache__/
