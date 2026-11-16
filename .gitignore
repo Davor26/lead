@@ -5,3 +5,7 @@ projects/*/assets/voice/*.onnx
 projects/*/assets/audio/**/*.wav
 output/**/*.mp4
 projects/*/samples/
+projects/*/graphics/renders/
+projects/*/graphics/review/
+projects/*/graphics/index.html
+projects/*/graphics/data/
