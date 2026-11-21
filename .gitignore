@@ -15,3 +15,5 @@ projects/*/artifacts/contact/
 projects/*/artifacts/thumb/
 projects/*/artifacts/search/*.html
 output/**/*.mp4
+projects/*/artifacts/*.log
+projects/*/artifacts/scenes/*.tmp
