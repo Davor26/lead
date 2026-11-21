@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><script src="lib.js"></script>
+<style>
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#020b15}
+#bg{position:absolute;left:40px;top:-10px;width:1344px;height:756px;background:url(thumb_bg.jpg) 0 0/cover;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 120px);filter:saturate(1.1) brightness(0.92) hue-rotate(8deg)}
+#dark{position:absolute;inset:0;background:linear-gradient(180deg,rgba(2,20,40,0) 0%,rgba(2,18,36,.35) 30%,rgba(2,12,26,.88) 62%,#010810 100%)}
+#svg{position:absolute;inset:0}
+#t{position:absolute;left:52px;bottom:46px;font-family:'Inter Display',Inter,sans-serif;font-weight:900;font-size:150px;line-height:.92;color:#fff;letter-spacing:-2px;text-shadow:0 6px 30px rgba(0,0,0,.7)}
+#t span{color:#7fd3ff}
+</style></head><body><div id="bg"></div><div id="dark"></div><svg id="svg" width="1280" height="720" viewBox="0 0 1280 720"></svg>
+<div id="t">WHY NOT<br><span>US?</span></div>
+<script>
+const s = `<defs><radialGradient id="rim" cx="50%" cy="0%" r="80%"><stop offset="0" stop-color="#5fb8e8" stop-opacity="0.55"/><stop offset="1" stop-color="#5fb8e8" stop-opacity="0"/></radialGradient>
+<filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter><filter id="b2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<g transform="translate(870,600) rotate(-128) scale(4.6) translate(-80,-30)">
+ <path d="${ORCA_TOP}" fill="#5fb8e8" opacity="0.32" filter="url(#b2)"/>
+ <path d="${ORCA_TOP}" fill="#03080d" filter="url(#b)"/>
+ <path d="M156,30 C150,24 132,24 112,26 C100,27 90,29 84,30 C90,31 100,33 112,34 C132,36 150,36 156,30 Z" fill="#d9e8f1" opacity="0.28" filter="url(#b)"/>
+ <path d="M60,30 C52,27 40,27 30,30 C40,33 52,33 60,30 Z" fill="#d9e8f1" opacity="0.25" filter="url(#b)"/>
+</g>`;
+document.getElementById('svg').innerHTML = s;
+</script></body></html>

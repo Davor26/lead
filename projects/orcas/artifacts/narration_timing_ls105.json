@@ -1,0 +1,797 @@
+{
+ "length_scale": 1.05,
+ "sample_rate": 22050,
+ "beat_gap": 0.45,
+ "sentence_gap": 0.32,
+ "tts_pronunciation_aids": {
+  "Brancheau": "Bran-shoh",
+  "W\u00fcrsig": "Werzig",
+  "J35": "J thirty-five"
+ },
+ "beats": [
+  {
+   "beat": 1,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 0.0,
+   "speech_dur": 9.238,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 2,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 11.688,
+   "speech_dur": 3.541,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 3,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 15.679,
+   "speech_dur": 14.857,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 4,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 30.986,
+   "speech_dur": 2.078,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 5,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 34.514,
+   "speech_dur": 2.531,
+   "pause_after": 3.0
+  },
+  {
+   "beat": 6,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 40.495,
+   "speech_dur": 6.513,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 7,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 49.458,
+   "speech_dur": 8.563,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 8,
+   "chapter": "2 \u2014 The perfect killer",
+   "chapter_index": 2,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.631,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 9,
+   "chapter": "2 \u2014 The perfect killer",
+   "chapter_index": 2,
+   "start_in_chapter": 6.081,
+   "speech_dur": 6.996,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 10,
+   "chapter": "2 \u2014 The perfect killer",
+   "chapter_index": 2,
+   "start_in_chapter": 13.527,
+   "speech_dur": 10.056,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 11,
+   "chapter": "2 \u2014 The perfect killer",
+   "chapter_index": 2,
+   "start_in_chapter": 24.032,
+   "speech_dur": 10.142,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 12,
+   "chapter": "2 \u2014 The perfect killer",
+   "chapter_index": 2,
+   "start_in_chapter": 34.624,
+   "speech_dur": 14.089,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 13,
+   "chapter": "2 \u2014 The perfect killer",
+   "chapter_index": 2,
+   "start_in_chapter": 49.164,
+   "speech_dur": 13.021,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 14,
+   "chapter": "2 \u2014 The perfect killer",
+   "chapter_index": 2,
+   "start_in_chapter": 62.635,
+   "speech_dur": 8.621,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 15,
+   "chapter": "2 \u2014 The perfect killer",
+   "chapter_index": 2,
+   "start_in_chapter": 73.706,
+   "speech_dur": 6.885,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 16,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 0.0,
+   "speech_dur": 12.04,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 17,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 12.49,
+   "speech_dur": 15.298,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 18,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 28.238,
+   "speech_dur": 15.589,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 19,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 44.276,
+   "speech_dur": 3.292,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 20,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 50.019,
+   "speech_dur": 15.628,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 21,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 66.097,
+   "speech_dur": 13.242,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 22,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 79.789,
+   "speech_dur": 17.138,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 23,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 97.377,
+   "speech_dur": 14.356,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 24,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 112.183,
+   "speech_dur": 20.934,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 25,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 133.567,
+   "speech_dur": 6.596,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 26,
+   "chapter": "3 \u2014 What an orca can do",
+   "chapter_index": 3,
+   "start_in_chapter": 141.613,
+   "speech_dur": 5.812,
+   "pause_after": 3.0
+  },
+  {
+   "beat": 27,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.115,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 28,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 5.565,
+   "speech_dur": 17.272,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 29,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 23.287,
+   "speech_dur": 4.198,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 30,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 29.935,
+   "speech_dur": 12.668,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 31,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 43.053,
+   "speech_dur": 15.28,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 32,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 58.783,
+   "speech_dur": 14.433,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 33,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 73.665,
+   "speech_dur": 7.321,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 34,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 81.436,
+   "speech_dur": 13.753,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 35,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 97.639,
+   "speech_dur": 12.452,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 36,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 110.541,
+   "speech_dur": 9.08,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 37,
+   "chapter": "4 \u2014 The record",
+   "chapter_index": 4,
+   "start_in_chapter": 122.072,
+   "speech_dur": 2.984,
+   "pause_after": 3.0
+  },
+  {
+   "beat": 38,
+   "chapter": "5 \u2014 The dark exception",
+   "chapter_index": 5,
+   "start_in_chapter": 0.0,
+   "speech_dur": 3.053,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 39,
+   "chapter": "5 \u2014 The dark exception",
+   "chapter_index": 5,
+   "start_in_chapter": 4.503,
+   "speech_dur": 6.961,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 40,
+   "chapter": "5 \u2014 The dark exception",
+   "chapter_index": 5,
+   "start_in_chapter": 11.914,
+   "speech_dur": 9.097,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 41,
+   "chapter": "5 \u2014 The dark exception",
+   "chapter_index": 5,
+   "start_in_chapter": 21.461,
+   "speech_dur": 13.701,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 42,
+   "chapter": "5 \u2014 The dark exception",
+   "chapter_index": 5,
+   "start_in_chapter": 35.613,
+   "speech_dur": 11.298,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 43,
+   "chapter": "5 \u2014 The dark exception",
+   "chapter_index": 5,
+   "start_in_chapter": 49.361,
+   "speech_dur": 10.276,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 44,
+   "chapter": "5 \u2014 The dark exception",
+   "chapter_index": 5,
+   "start_in_chapter": 62.087,
+   "speech_dur": 2.984,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 45,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 0.0,
+   "speech_dur": 10.542,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 46,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 10.992,
+   "speech_dur": 7.037,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 47,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 18.479,
+   "speech_dur": 7.936,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 48,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 26.865,
+   "speech_dur": 11.548,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 49,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 38.863,
+   "speech_dur": 18.863,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 50,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 58.176,
+   "speech_dur": 14.005,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 51,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 72.631,
+   "speech_dur": 7.843,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 52,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 81.924,
+   "speech_dur": 6.032,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 53,
+   "chapter": "6 \u2014 Theory one: we are not on the menu",
+   "chapter_index": 6,
+   "start_in_chapter": 90.406,
+   "speech_dur": 6.253,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 54,
+   "chapter": "7 \u2014 A twist: killers that don't eat",
+   "chapter_index": 7,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.563,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 55,
+   "chapter": "7 \u2014 A twist: killers that don't eat",
+   "chapter_index": 7,
+   "start_in_chapter": 7.013,
+   "speech_dur": 10.898,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 56,
+   "chapter": "7 \u2014 A twist: killers that don't eat",
+   "chapter_index": 7,
+   "start_in_chapter": 18.361,
+   "speech_dur": 20.8,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 57,
+   "chapter": "7 \u2014 A twist: killers that don't eat",
+   "chapter_index": 7,
+   "start_in_chapter": 39.611,
+   "speech_dur": 3.257,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 58,
+   "chapter": "7 \u2014 A twist: killers that don't eat",
+   "chapter_index": 7,
+   "start_in_chapter": 44.318,
+   "speech_dur": 16.355,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 59,
+   "chapter": "7 \u2014 A twist: killers that don't eat",
+   "chapter_index": 7,
+   "start_in_chapter": 61.123,
+   "speech_dur": 6.195,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 60,
+   "chapter": "7 \u2014 A twist: killers that don't eat",
+   "chapter_index": 7,
+   "start_in_chapter": 68.768,
+   "speech_dur": 9.26,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 61,
+   "chapter": "8 \u2014 Theory two: the grandmothers",
+   "chapter_index": 8,
+   "start_in_chapter": 0.0,
+   "speech_dur": 11.27,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 62,
+   "chapter": "8 \u2014 Theory two: the grandmothers",
+   "chapter_index": 8,
+   "start_in_chapter": 11.72,
+   "speech_dur": 6.16,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 63,
+   "chapter": "8 \u2014 Theory two: the grandmothers",
+   "chapter_index": 8,
+   "start_in_chapter": 18.329,
+   "speech_dur": 7.372,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 64,
+   "chapter": "8 \u2014 Theory two: the grandmothers",
+   "chapter_index": 8,
+   "start_in_chapter": 26.152,
+   "speech_dur": 12.801,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 65,
+   "chapter": "8 \u2014 Theory two: the grandmothers",
+   "chapter_index": 8,
+   "start_in_chapter": 39.403,
+   "speech_dur": 12.051,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 66,
+   "chapter": "8 \u2014 Theory two: the grandmothers",
+   "chapter_index": 8,
+   "start_in_chapter": 51.904,
+   "speech_dur": 7.541,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 67,
+   "chapter": "8 \u2014 Theory two: the grandmothers",
+   "chapter_index": 8,
+   "start_in_chapter": 59.895,
+   "speech_dur": 3.019,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 68,
+   "chapter": "8 \u2014 Theory two: the grandmothers",
+   "chapter_index": 8,
+   "start_in_chapter": 65.364,
+   "speech_dur": 8.749,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 69,
+   "chapter": "9 \u2014 Theory three: an intelligent, careful animal",
+   "chapter_index": 9,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.307,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 70,
+   "chapter": "9 \u2014 Theory three: an intelligent, careful animal",
+   "chapter_index": 9,
+   "start_in_chapter": 5.757,
+   "speech_dur": 7.43,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 71,
+   "chapter": "9 \u2014 Theory three: an intelligent, careful animal",
+   "chapter_index": 9,
+   "start_in_chapter": 13.638,
+   "speech_dur": 13.59,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 72,
+   "chapter": "9 \u2014 Theory three: an intelligent, careful animal",
+   "chapter_index": 9,
+   "start_in_chapter": 27.678,
+   "speech_dur": 10.334,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 73,
+   "chapter": "9 \u2014 Theory three: an intelligent, careful animal",
+   "chapter_index": 9,
+   "start_in_chapter": 38.462,
+   "speech_dur": 10.212,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 74,
+   "chapter": "9 \u2014 Theory three: an intelligent, careful animal",
+   "chapter_index": 9,
+   "start_in_chapter": 50.124,
+   "speech_dur": 10.392,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 75,
+   "chapter": "9 \u2014 Theory three: an intelligent, careful animal",
+   "chapter_index": 9,
+   "start_in_chapter": 62.966,
+   "speech_dur": 3.878,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 76,
+   "chapter": "9 \u2014 Theory three: an intelligent, careful animal",
+   "chapter_index": 9,
+   "start_in_chapter": 67.294,
+   "speech_dur": 8.162,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 77,
+   "chapter": "10 \u2014 Theory four: a promise",
+   "chapter_index": 10,
+   "start_in_chapter": 0.0,
+   "speech_dur": 9.004,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 78,
+   "chapter": "10 \u2014 Theory four: a promise",
+   "chapter_index": 10,
+   "start_in_chapter": 9.454,
+   "speech_dur": 11.28,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 79,
+   "chapter": "10 \u2014 Theory four: a promise",
+   "chapter_index": 10,
+   "start_in_chapter": 21.184,
+   "speech_dur": 6.52,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 80,
+   "chapter": "10 \u2014 Theory four: a promise",
+   "chapter_index": 10,
+   "start_in_chapter": 30.154,
+   "speech_dur": 10.2,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 81,
+   "chapter": "10 \u2014 Theory four: a promise",
+   "chapter_index": 10,
+   "start_in_chapter": 42.804,
+   "speech_dur": 4.365,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 82,
+   "chapter": "11 \u2014 The test case",
+   "chapter_index": 11,
+   "start_in_chapter": 0.0,
+   "speech_dur": 12.592,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 83,
+   "chapter": "11 \u2014 The test case",
+   "chapter_index": 11,
+   "start_in_chapter": 13.042,
+   "speech_dur": 4.825,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 84,
+   "chapter": "11 \u2014 The test case",
+   "chapter_index": 11,
+   "start_in_chapter": 18.316,
+   "speech_dur": 14.142,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 85,
+   "chapter": "11 \u2014 The test case",
+   "chapter_index": 11,
+   "start_in_chapter": 32.909,
+   "speech_dur": 4.216,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 86,
+   "chapter": "11 \u2014 The test case",
+   "chapter_index": 11,
+   "start_in_chapter": 38.575,
+   "speech_dur": 6.618,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 87,
+   "chapter": "11 \u2014 The test case",
+   "chapter_index": 11,
+   "start_in_chapter": 47.642,
+   "speech_dur": 5.492,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 88,
+   "chapter": "12 \u2014 The real danger",
+   "chapter_index": 12,
+   "start_in_chapter": 0.0,
+   "speech_dur": 13.238,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 89,
+   "chapter": "12 \u2014 The real danger",
+   "chapter_index": 12,
+   "start_in_chapter": 13.688,
+   "speech_dur": 6.845,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 90,
+   "chapter": "12 \u2014 The real danger",
+   "chapter_index": 12,
+   "start_in_chapter": 22.983,
+   "speech_dur": 9.48,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 91,
+   "chapter": "12 \u2014 The real danger",
+   "chapter_index": 12,
+   "start_in_chapter": 32.913,
+   "speech_dur": 18.287,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 92,
+   "chapter": "12 \u2014 The real danger",
+   "chapter_index": 12,
+   "start_in_chapter": 51.651,
+   "speech_dur": 7.535,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 93,
+   "chapter": "12 \u2014 The real danger",
+   "chapter_index": 12,
+   "start_in_chapter": 59.635,
+   "speech_dur": 3.738,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 94,
+   "chapter": "13 \u2014 Conclusion",
+   "chapter_index": 13,
+   "start_in_chapter": 0.0,
+   "speech_dur": 2.322,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 95,
+   "chapter": "13 \u2014 Conclusion",
+   "chapter_index": 13,
+   "start_in_chapter": 2.772,
+   "speech_dur": 9.022,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 96,
+   "chapter": "13 \u2014 Conclusion",
+   "chapter_index": 13,
+   "start_in_chapter": 12.244,
+   "speech_dur": 5.203,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 97,
+   "chapter": "13 \u2014 Conclusion",
+   "chapter_index": 13,
+   "start_in_chapter": 19.897,
+   "speech_dur": 5.73,
+   "pause_after": 4.0
+  },
+  {
+   "beat": 98,
+   "chapter": "13 \u2014 Conclusion",
+   "chapter_index": 13,
+   "start_in_chapter": 30.077,
+   "speech_dur": 8.679,
+   "pause_after": 0.0
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+projects/*/assets/footage/raw/
+projects/*/assets/footage/norm/
+projects/*/assets/audio/
+projects/*/assets/music/*.ogg
+projects/*/assets/music/*.oga
+projects/*/assets/music/*.mp3
+projects/*/assets/voice/*.onnx
+projects/*/renders/
+projects/*/graphics/out/
+projects/*/graphics/preview/
+projects/*/graphics/data/
+projects/*/artifacts/contact/
+projects/*/artifacts/thumb/
+projects/*/artifacts/search/*.html
+output/**/*.mp4

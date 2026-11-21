@@ -1,0 +1,360 @@
+[
+ {
+  "name": "zero",
+  "dur": 7.3667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b006_zero.mp4"
+ },
+ {
+  "name": "title",
+  "dur": 8.2667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b007_ov_title.mov"
+ },
+ {
+  "name": "family",
+  "dur": 7.6,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b009_family.mp4"
+ },
+ {
+  "name": "size",
+  "dur": 10.5333,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b010_size.mp4"
+ },
+ {
+  "name": "world",
+  "dur": 11.1,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b011_world.mp4"
+ },
+ {
+  "name": "wavewash",
+  "dur": 10.0,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b017_wavewash.mp4"
+ },
+ {
+  "name": "weddell",
+  "dur": 16.9,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b018_weddell.mp4"
+ },
+ {
+  "name": "beach",
+  "dur": 10.0,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b020_beach.mp4"
+ },
+ {
+  "name": "bluewhale",
+  "dur": 11.2,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b022_bluewhale.mp4"
+ },
+ {
+  "name": "portstar",
+  "dur": 15.6667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b023_portstar.mp4"
+ },
+ {
+  "name": "incidents",
+  "dur": 5.9667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b027_incidents.mp4"
+ },
+ {
+  "name": "lower",
+  "dur": 18.0333,
+  "params": {
+   "big": "1972",
+   "small": "POINT SUR, CALIFORNIA"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b028_ov_lower.mov"
+ },
+ {
+  "name": "lower",
+  "dur": 12.1667,
+  "params": {
+   "big": "1989",
+   "small": "PATAGONIA, ARGENTINA"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b030_ov_lower.mov"
+ },
+ {
+  "name": "lower",
+  "dur": 16.0,
+  "params": {
+   "big": "2005",
+   "small": "KETCHIKAN, ALASKA"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b031_ov_lower.mov"
+ },
+ {
+  "name": "lower",
+  "dur": 14.7333,
+  "params": {
+   "big": "2014",
+   "small": "NEW ZEALAND"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b032_ov_lower.mov"
+ },
+ {
+  "name": "incidents",
+  "dur": 8.3667,
+  "params": {
+   "all": true
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b033_incidents.mp4"
+ },
+ {
+  "name": "statement",
+  "dur": 11.0667,
+  "params": {
+   "big": "UNCONFIRMED",
+   "small": "CANADIAN ARCTIC \u00b7 1950s",
+   "size": 120
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b034_ov_statement.mov"
+ },
+ {
+  "name": "sharks",
+  "dur": 14.0667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b035_sharks.mp4"
+ },
+ {
+  "name": "statement",
+  "dur": 6.7,
+  "params": {
+   "big": "CAPTIVITY: 4 DEATHS",
+   "size": 110,
+   "color": "#eef4f8"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b039_ov_statement.mov"
+ },
+ {
+  "name": "statement",
+  "dur": 9.3333,
+  "params": {
+   "big": "TILIKUM \u2014 3 DEATHS",
+   "size": 96,
+   "small": "LAST: 2010"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b040_ov_statement.mov"
+ },
+ {
+  "name": "range",
+  "dur": 15.1667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b041_range.mp4"
+ },
+ {
+  "name": "tree",
+  "dur": 19.4,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b049_tree.mp4"
+ },
+ {
+  "name": "porpoise1",
+  "dur": 6.4,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b054_porpoise1.mp4"
+ },
+ {
+  "name": "porpoise2",
+  "dur": 11.7,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b055_porpoise2.mp4"
+ },
+ {
+  "name": "g78",
+  "dur": 22.1,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b056_g78.mp4"
+ },
+ {
+  "name": "three",
+  "dur": 18.1333,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b058_three.mp4"
+ },
+ {
+  "name": "life",
+  "dur": 6.8,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b062_life.mp4"
+ },
+ {
+  "name": "grand",
+  "dur": 13.1333,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b065_grand.mp4"
+ },
+ {
+  "name": "brain",
+  "dur": 8.1667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b070_brain.mp4"
+ },
+ {
+  "name": "day17",
+  "dur": 10.4667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b072_ov_day17.mov"
+ },
+ {
+  "name": "carving",
+  "dur": 14.2,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b078_carving.mp4"
+ },
+ {
+  "name": "rudder",
+  "dur": 8.5,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b082_rudder.mp4"
+ },
+ {
+  "name": "iberia",
+  "dur": 5.5667,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b083_iberia.mp4"
+ },
+ {
+  "name": "gibraltar",
+  "dur": 15.8333,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b084_gibraltar.mp4"
+ },
+ {
+  "name": "rudder",
+  "dur": 4.9667,
+  "params": {
+   "short": true
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/b085_rudder.mp4"
+ },
+ {
+  "name": "srkw",
+  "dur": 19.9,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b091_srkw.mp4"
+ },
+ {
+  "name": "endcard",
+  "dur": 18.6,
+  "params": {},
+  "out": "/home/user/lead/projects/orcas/graphics/out/b098_endcard.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "CHAPTER 2",
+   "title": "The perfect killer"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_02.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "CHAPTER 3",
+   "title": "What an orca can do"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_03.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "CHAPTER 4",
+   "title": "The record"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_04.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "CHAPTER 5",
+   "title": "The dark exception"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_05.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "THEORY ONE",
+   "title": "We are not on the menu"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_06.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "CHAPTER 7",
+   "title": "A twist: killers that don't eat"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_07.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "THEORY TWO",
+   "title": "The grandmothers"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_08.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "THEORY THREE",
+   "title": "An intelligent, careful animal"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_09.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "THEORY FOUR",
+   "title": "A promise"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_10.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "CHAPTER 11",
+   "title": "The test case"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_11.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "CHAPTER 12",
+   "title": "The real danger"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_12.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 3.5,
+  "params": {
+   "kicker": "CHAPTER 13",
+   "title": "Conclusion"
+  },
+  "out": "/home/user/lead/projects/orcas/graphics/out/card_13.mp4"
+ }
+]
