@@ -4,8 +4,8 @@
   "black": 60,
   "shots": [
    {
-    "src": "mk_4466",
-    "in": 1.0,
+    "src": "mk_35659",
+    "in": 0.533,
     "frames": 104,
     "fx": {
      "grade": "dark"
@@ -57,13 +57,15 @@
     "src": "wm_09",
     "in": 152.0,
     "frames": 127,
-    "fx": {}
+    "fx": {},
+    "src_len": 4.233
    },
    {
     "src": "wm_05",
     "in": 84.0,
     "frames": 127,
-    "fx": {}
+    "fx": {},
+    "src_len": 4.233
    },
    {
     "src": "noaa_6214018299001",
@@ -312,13 +314,15 @@
     "src": "wm_22",
     "in": 30.0,
     "frames": 164,
-    "fx": {}
+    "fx": {},
+    "src_len": 5.467
    },
    {
     "src": "wm_22",
     "in": 138.0,
     "frames": 214,
-    "fx": {}
+    "fx": {},
+    "src_len": 7.133
    }
   ],
   "overlay": null
@@ -328,8 +332,8 @@
   "black": 0,
   "shots": [
    {
-    "src": "noaa_4088998754001",
-    "in": 198.0,
+    "src": "noaa_4264909079001",
+    "in": 25.0,
     "frames": 182,
     "fx": {},
     "src_len": 6.067
@@ -409,7 +413,7 @@
   "shots": [
    {
     "src": "noaa_3629965805001",
-    "in": 108.0,
+    "in": 112.0,
     "frames": 144,
     "fx": {},
     "src_len": 4.8
@@ -439,11 +443,12 @@
     "src": "wm_05",
     "in": 92.0,
     "frames": 105,
-    "fx": {}
+    "fx": {},
+    "src_len": 3.5
    },
    {
-    "src": "noaa_4088998754001",
-    "in": 186.0,
+    "src": "noaa_3629965805001",
+    "in": 88.0,
     "frames": 105,
     "fx": {},
     "src_len": 3.5
@@ -494,13 +499,15 @@
     "src": "wm_10",
     "in": 14.0,
     "frames": 133,
-    "fx": {}
+    "fx": {},
+    "src_len": 4.433
    },
    {
     "src": "wm_09",
     "in": 60.0,
     "frames": 133,
-    "fx": {}
+    "fx": {},
+    "src_len": 4.433
    },
    {
     "src": "mk_51502",
@@ -826,7 +833,7 @@
   "black": 0,
   "shots": [
    {
-    "src": "mk_28203",
+    "src": "mk_1280",
     "in": 1.0,
     "frames": 225,
     "fx": {
@@ -935,7 +942,8 @@
     "src": "wm_15",
     "in": 40.0,
     "frames": 109,
-    "fx": {}
+    "fx": {},
+    "src_len": 3.633
    }
   ],
   "overlay": null
@@ -1001,8 +1009,8 @@
     "src_len": 4.467
    },
    {
-    "src": "noaa_5531008936001",
-    "in": 14.0,
+    "src": "wm_15",
+    "in": 62.0,
     "frames": 133,
     "fx": {},
     "src_len": 4.433
@@ -1192,14 +1200,13 @@
   "black": 30,
   "shots": [
    {
-    "src": "mk_43088",
-    "in": 0,
+    "src": "mk_14767",
+    "in": 1.0,
     "frames": 223,
     "fx": {
-     "grade": "dark",
-     "slow": 1.294
+     "grade": "dark"
     },
-    "src_len": 5.744
+    "src_len": 7.433
    }
   ],
   "overlay": null
@@ -1209,25 +1216,18 @@
   "black": 60,
   "shots": [
    {
-    "src": "mk_1903",
-    "in": 1.0,
-    "frames": 100,
-    "fx": {},
-    "src_len": 3.333
-   },
-   {
     "src": "mk_7899",
     "in": 1.0,
-    "frames": 100,
+    "frames": 150,
     "fx": {},
-    "src_len": 3.333
+    "src_len": 5.0
    },
    {
     "src": "noaa_1092315332001",
     "in": 146.0,
-    "frames": 100,
+    "frames": 150,
     "fx": {},
-    "src_len": 3.333
+    "src_len": 5.0
    }
   ],
   "overlay": null
@@ -1302,15 +1302,17 @@
    },
    {
     "src": "wm_15",
-    "in": 118.0,
+    "in": 44.0,
     "frames": 143,
-    "fx": {}
+    "fx": {},
+    "src_len": 4.767
    },
    {
-    "src": "wm_17",
-    "in": 4.0,
+    "src": "noaa_5531008936001",
+    "in": 30.0,
     "frames": 144,
-    "fx": {}
+    "fx": {},
+    "src_len": 4.8
    }
   ],
   "overlay": null
@@ -1385,7 +1387,7 @@
   "shots": [
    {
     "src": "noaa_3629965805001",
-    "in": 38.0,
+    "in": 40.0,
     "frames": 169,
     "fx": {},
     "src_len": 5.633
@@ -1411,31 +1413,22 @@
   "black": 0,
   "shots": [
    {
-    "src": "mk_8662",
-    "in": 1.0,
-    "frames": 153,
-    "fx": {
-     "grade": "grey"
-    },
-    "src_len": 5.1
-   },
-   {
     "src": "noaa_1092315332001",
     "in": 10.0,
-    "frames": 153,
+    "frames": 230,
     "fx": {
      "grade": "grey"
     },
-    "src_len": 5.1
+    "src_len": 7.667
    },
    {
     "src": "noaa_897671512001",
     "in": 6.0,
-    "frames": 153,
+    "frames": 229,
     "fx": {
      "grade": "grey"
     },
-    "src_len": 5.1
+    "src_len": 7.633
    }
   ],
   "overlay": null
@@ -1552,8 +1545,8 @@
     "src_len": 3.3
    },
    {
-    "src": "wm_25",
-    "in": 48.0,
+    "src": "wm_24",
+    "in": 12.0,
     "frames": 100,
     "fx": {}
    }
@@ -1705,8 +1698,8 @@
     "src_len": 4.1
    },
    {
-    "src": "noaa_6011240148001",
-    "in": 30.0,
+    "src": "mk_4477",
+    "in": 1.0,
     "frames": 123,
     "fx": {},
     "src_len": 4.1
@@ -1719,8 +1712,8 @@
   "black": 60,
   "shots": [
    {
-    "src": "noaa_5998935565001",
-    "in": 50.0,
+    "src": "noaa_4088998754001",
+    "in": 100.0,
     "frames": 186,
     "fx": {},
     "src_len": 6.2
@@ -1736,7 +1729,8 @@
     "src": "wm_15",
     "in": 50.0,
     "frames": 111,
-    "fx": {}
+    "fx": {},
+    "src_len": 3.7
    },
    {
     "src": "noaa_4569239085001",
@@ -1865,7 +1859,7 @@
   "shots": [
    {
     "src": "noaa_3629965805001",
-    "in": 19.0,
+    "in": 18.5,
     "frames": 87,
     "fx": {
      "slow": 1.5
@@ -1883,19 +1877,22 @@
     "src": "wm_09",
     "in": 186.0,
     "frames": 78,
-    "fx": {}
+    "fx": {},
+    "src_len": 2.6
    },
    {
     "src": "wm_05",
     "in": 98.0,
     "frames": 78,
-    "fx": {}
+    "fx": {},
+    "src_len": 2.6
    },
    {
     "src": "wm_22",
     "in": 150.0,
     "frames": 78,
-    "fx": {}
+    "fx": {},
+    "src_len": 2.6
    },
    {
     "src": "noaa_4088998754001",
@@ -1912,13 +1909,13 @@
   "black": 60,
   "shots": [
    {
-    "src": "noaa_6011240148001",
+    "src": "noaa_3629965805001",
     "in": 40.0,
     "frames": 178,
     "fx": {
-     "slow": 1.4
+     "slow": 1.2
     },
-    "src_len": 4.238
+    "src_len": 4.944
    }
   ],
   "overlay": null

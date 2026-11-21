@@ -25,13 +25,13 @@ for k in used:
     elif k.startswith('wm_'):
         v = wm[k + '.webm']
         lines.append(f"Wikimedia Commons | {v['title']} — {v['author'] or 'see file page'} | {v['page_url']} | {v['licence']}")
-music = json.load(open(P/'assets/music/music_meta.json'))
+music = json.load(open(P/'assets/music/music_meta_all.json'))
 mp = json.load(open(P/'artifacts/music_plan.json'))
 used_m = []
 for seg in mp['segments']:
     if seg[0] not in used_m: used_m.append(seg[0])
 out = ['WHY ORCAS DON\'T KILL HUMANS — Naturexplore', '', 'FOOTAGE (provider | title | URL | licence)'] + lines
-out += ['', 'MUSIC'] + [f"Wikimedia Commons | \"{music[m]['title']}\" — Kevin MacLeod (incompetech.com) | {music[m]['page_url']} | {music[m]['licence']}" for m in used_m]
+out += ['', 'MUSIC'] + [f"{music[m]['provider']} | \"{music[m]['title']}\" — {music[m]['author']} | {music[m]['page_url']} | {music[m]['licence']}" for m in used_m]
 out += ['', 'NARRATION', 'Piper TTS (rhasspy/piper, MIT) | voice en_GB-cori-high | https://huggingface.co/rhasspy/piper-voices | trained on LibriVox recordings (public domain)',
         '', 'MAP DATA', 'Natural Earth via world-atlas | land 50m / 10m | https://github.com/topojson/world-atlas | Public domain',
         '', 'GRAPHICS', 'Diagrams, maps, text cards and silhouettes: original artwork made for this film (Naturexplore).', '']

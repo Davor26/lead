@@ -126,7 +126,7 @@ GRADE = {
  'grey': 'eq=saturation=0.55:contrast=0.98',
  'warm': 'colorbalance=rs=0.06:bs=-0.05:rm=0.04,eq=saturation=1.05',
 }
-ENC = ['-c:v', 'libx264', '-preset', 'fast', '-crf', '16', '-pix_fmt', 'yuv420p', '-r', '30', '-g', '60', '-an']
+ENC = ['-c:v', 'libx264', '-preset', 'veryfast', '-crf', '16', '-pix_fmt', 'yuv420p', '-r', '30', '-g', '60', '-an']
 
 def vchain(s, nf, w=1920, h=1080):
     fx = s['fx']; z = fx.get('zoom', 1.0); slow = fx.get('slow', 1.0)

@@ -36,21 +36,20 @@ print('narration normalised to -16 LUFS')
 
 # ---- music bed ----
 meta = json.load(open(P/'assets/music/music_meta.json'))
+for i, v in json.load(open(P/'assets/music/mixkit/meta.json')).items():
+    meta['mx_' + i] = {'file': f'assets/music/mixkit/mx_{i}.mp3', 'title': v['title'], 'author': v['artist'], 'page_url': f'https://assets.mixkit.co/music/{i}/{i}.mp3',
+                       'licence': 'Mixkit Stock Music Free License', 'provider': 'Mixkit'}
+json.dump(meta, open(P/'assets/music/music_meta_all.json', 'w'), indent=1)
 have = {k for k, v in meta.items() if (P/v['file']).exists() and (P/v['file']).stat().st_size > 100000}
 print('music available:', sorted(have))
 B = {b['beat']: b for b in TL['beats']}
 cards = {c['chapter_index']: c['start'] for c in TL['chapters'] if c['type'] == 'card'}
 cstart = lambda ci: cards[ci] if ci in cards else 0.0
 # chapter -> preferred tracks (first available wins); (track, offset seconds)
-PLAN = {1: ['unseen_presence'], 2: ['interloper', 'the_voices', 'unseen_presence'], 3: ['distant_tension', 'interloper', 'unseen_presence'],
-        4: ['the_voices', 'interloper', 'unseen_presence'], 5: ['isolated', 'the_voices', 'unseen_presence'], 6: ['stratosphere', 'earth_prelude', 'healing'],
-        7: ['unanswered_questions', 'interloper', 'unseen_presence'], 8: ['healing', 'peaceful_desolation', 'earth_prelude'],
-        9: ['peaceful_desolation', 'passing_of_time', 'healing'], 10: ['earth_prelude', 'winter_reflections', 'healing'],
-        11: ['distant_tension', 'interloper', 'unseen_presence'], 12: ['passing_of_time', 'peaceful_desolation', 'isolated'],
-        13: ['inner_light', 'healing', 'passing_of_time']}
-OFFS = {('distant_tension', 11): 95.0, ('interloper', 11): 120.0, ('unseen_presence', 11): 150.0, ('unseen_presence', 4): 60.0,
-        ('unseen_presence', 7): 120.0, ('interloper', 4): 90.0, ('unseen_presence', 5): 200.0, ('unseen_presence', 3): 30.0,
-        ('healing', 10): 60.0, ('peaceful_desolation', 12): 80.0, ('the_voices', 5): 60.0}
+# chapter -> track. Tense under the paradox and the record; warm for the grandmothers and Tahlequah.
+PLAN = {1: ['unseen_presence', 'mx_188'], 2: ['mx_612'], 3: ['mx_565'], 4: ['mx_188'], 5: ['mx_565'], 6: ['mx_683'],
+        7: ['mx_612'], 8: ['mx_148'], 9: ['mx_592'], 10: ['mx_682'], 11: ['mx_546'], 12: ['mx_614'], 13: ['mx_184']}
+OFFS = {('mx_565', 5): 150.0, ('mx_612', 7): 110.0, ('mx_188', 4): 20.0}
 segs = []  # (track, offset, t_start, t_end, fade_in, fade_out)
 t_b5 = B[5]['speech_start'] - 0.15        # "Except, it seems, you." -> music stops
 t_b7 = B[7]['visual_start']                # title card: music returns
