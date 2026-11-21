@@ -17,7 +17,7 @@ lines = []
 for k in used:
     if k.startswith('noaa_'):
         v = noaa[k[5:]]
-        lines.append(f"NOAA Fisheries | {v['title'].replace(' | NOAA Fisheries', '')} | {v['page_url']} | Public domain (U.S. Government work; credit: NOAA Fisheries)")
+        lines.append(f"NOAA Fisheries | {v['title'].split(' - ')[0]} | {v['page_url']} | Public domain (U.S. Government work; credit: NOAA Fisheries)")
     elif k.startswith('mk_'):
         kk = k.replace('_thumb', '')
         v = mk[kk + '.mp4']; note = ' (thumbnail background)' if k.endswith('_thumb') else ''
