@@ -81,7 +81,9 @@ for b in TL['beats']:
 # a quieter, darker bed under the cold open's first lines
 env_db[:int(B[2]['speech_start'] * SR)] = np.minimum(env_db[:int(B[2]['speech_start'] * SR)], -16.0)
 # smooth with a 0.4 s moving average so the music breathes rather than pumps
-k = int(0.4 * SR); env_db = np.convolve(env_db, np.ones(k) / k, mode='same')
+k = int(0.4 * SR); cs = np.concatenate([[0.0], np.cumsum(env_db, dtype=np.float64)]); pad = k // 2
+idx = np.arange(N); lo = np.clip(idx - pad, 0, N); hi = np.clip(idx + pad, 0, N)
+env_db = ((cs[hi] - cs[lo]) / np.maximum(hi - lo, 1)).astype(np.float32)
 music *= (10 ** (env_db / 20))[:, None]
 write(A/'music_bed.wav', music)
 mix = narr + music
