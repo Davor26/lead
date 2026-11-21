@@ -24,7 +24,7 @@ for k in used:
         lines.append(f"Mixkit | {v['title'].capitalize()}{note} | {v['page_url']} | Mixkit Stock Video Free License")
     elif k.startswith('wm_'):
         v = wm[k + '.webm']
-        lines.append(f"Wikimedia Commons | {v['title']} — {v['author'] or 'see file page'} | {v['page_url']} | {v['licence']}")
+        lines.append(f"Wikimedia Commons | {v['title']} — {v['author'].split(' Assessment')[0].strip() or 'see file page'} | {v['page_url']} | {v['licence']}")
 music = json.load(open(P/'assets/music/music_meta_all.json'))
 mp = json.load(open(P/'artifacts/music_plan.json'))
 used_m = []
