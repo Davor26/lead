@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#000}
+#o{position:absolute;left:-200px;top:20px;width:1440px;height:810px;background:url(octo_orca.jpg) 0 0/cover;
+ -webkit-mask-image:radial-gradient(ellipse 30% 52% at 80% 40%,#000 55%,rgba(0,0,0,.5) 78%,transparent 100%);transform:scaleX(1)}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 75% 45%,transparent 35%,rgba(0,0,0,.8) 80%)}
+svg{position:absolute;inset:0}
+.A{position:absolute;left:44px;top:34px;font-family:'Inter Display',Inter,sans-serif;font-weight:900;font-size:118px;line-height:.95;color:#fff;letter-spacing:-1px;text-shadow:0 4px 18px rgba(0,0,0,.9)}
+.A b{color:#e5231f;font-weight:900}
+.B{position:absolute;left:48px;top:40px;font-family:'Caladea','DejaVu Serif',serif;font-weight:700;font-size:104px;line-height:1.02;color:#fff;text-shadow:0 4px 18px rgba(0,0,0,.9)}
+</style></head><body>
+<div id="o"></div><div id="vig"></div>
+<svg width="1280" height="720" viewBox="0 0 1280 720">
+ <defs><linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter></defs>
+ <!-- tiny diver with torch, facing the orca -->
+ <g transform="translate(176,520) rotate(-8)">
+  <polygon points="58,-6 330,-60 330,70 58,6" fill="url(#beam)" filter="url(#soft)" opacity=".75"/>
+  <circle cx="44" cy="-2" r="7" fill="#d9d9d9"/>
+  <path d="M38,-6 L0,-4 L-30,-2 L-32,3 L0,4 L38,5 Z" fill="#cfcfcf"/>
+  <path d="M-30,-2 L-58,-10 L-60,-6 L-32,2 Z M-30,2 L-56,10 L-54,14 L-30,5 Z" fill="#bdbdbd"/>
+  <path d="M30,-4 L56,-6 L58,-2 L32,0 Z" fill="#cfcfcf"/>
+  <circle cx="58" cy="-4" r="3.5" fill="#fff"/>
+  <rect x="-6" y="-11" width="22" height="7" rx="3" fill="#9a9a9a"/>
+ </g>
+ <path d="M300,248 C250,330 210,390 196,470" fill="none" stroke="#e5231f" stroke-width="9" stroke-linecap="round"/><path d="M174,452 L195,490 L222,456" fill="none" stroke="#e5231f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<div class="A">WHY NOT<br><b>US?</b></div>
+</body></html>

@@ -19,3 +19,4 @@ projects/*/artifacts/*.log
 projects/*/artifacts/scenes/*.tmp
 projects/*/artifacts/story/
 projects/*/assets/music/mixkit/*.mp3
+projects/*/artifacts/octolab/
