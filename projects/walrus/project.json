@@ -1,0 +1,12 @@
+{
+  "project_id": "walrus",
+  "title": "Why Polar Bears Throw Rocks at Walruses",
+  "pipeline_type": "documentary-montage",
+  "channel": "Naturexplore",
+  "language": "en",
+  "master_track": "narration",
+  "narration": { "engine": "piper_tts", "voice": "en_GB-cori-high", "per_chapter": true },
+  "output": { "width": 1920, "height": 1080, "fps": 30, "video_codec": "h264", "audio_codec": "aac", "burned_subtitles": false, "srt": true },
+  "music_duck_db": -18,
+  "budget_usd": 0
+}
