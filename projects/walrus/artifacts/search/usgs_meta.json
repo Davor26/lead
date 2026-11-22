@@ -1,0 +1,79 @@
+{
+ "usgs-science-walrus-haul-out-2011": {
+  "page_url": "https://www.usgs.gov/media/videos/usgs-science-walrus-haul-out-2011",
+  "title": "USGS Science: Walrus Haul-Out 2011",
+  "mp4": [
+   "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/walrus.mp4",
+   "https://usgs-ocapsv2-public-output-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/walrus/MP4/walrus.mp4"
+  ],
+  "youtube": [],
+  "description": "",
+  "pd": true
+ },
+ "tracking-pacific-walrus-trailer": {
+  "page_url": "https://www.usgs.gov/media/videos/tracking-pacific-walrus-trailer",
+  "title": "Tracking Pacific Walrus Trailer",
+  "mp4": [
+   "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/tracking-walrus-trailer.mp4",
+   "https://usgs-ocapsv2-public-output-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/tracking-walrus-trailer/MP4/tracking-walrus-trailer.mp4"
+  ],
+  "youtube": [],
+  "description": "",
+  "pd": true
+ },
+ "polar-bear-collar-cam-b-roll-2014-2015-2016": {
+  "page_url": "https://www.usgs.gov/media/videos/polar-bear-collar-cam-b-roll-2014-2015-2016",
+  "title": "Polar Bear Collar Cam B-Roll 2014, 2015, 2016",
+  "mp4": [
+   "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-allclips.mp4",
+   "https://usgs-ocapsv2-public-output-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-allclips/MP4/polar-bear-allclips.mp4"
+  ],
+  "youtube": [],
+  "description": "",
+  "pd": true
+ },
+ "pov-polar-bear-collar-cam-b-roll-2019-2021-and-2022": {
+  "page_url": "https://www.usgs.gov/media/videos/pov-polar-bear-collar-cam-b-roll-2019-2021-and-2022",
+  "title": "POV Polar Bear Collar Cam B-roll 2019, 2021, and 2022",
+  "mp4": [
+   "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/video/PolarBearCollarCamera.mp4",
+   "https://usgs-ocapsv2-public-output-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/video/PolarBearCollarCamera/MP4/PolarBearCollarCamera.mp4"
+  ],
+  "youtube": [],
+  "description": "",
+  "pd": true
+ },
+ "polar-bears-film-their-own-sea-ice-world": {
+  "page_url": "https://www.usgs.gov/media/videos/polar-bears-film-their-own-sea-ice-world",
+  "title": "Polar Bears Film Their Own Sea Ice World",
+  "mp4": [
+   "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-2018.mp4",
+   "https://usgs-ocapsv2-public-output-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-2018/MP4/polar-bear-2018.mp4"
+  ],
+  "youtube": [],
+  "description": "",
+  "pd": true
+ },
+ "polar-bear-pov-cams-spring-2016": {
+  "page_url": "https://www.usgs.gov/media/videos/polar-bear-pov-cams-spring-2016",
+  "title": "Polar Bear - POV Cams (Spring 2016)",
+  "mp4": [
+   "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-2017.mp4",
+   "https://usgs-ocapsv2-public-output-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-2017/MP4/polar-bear-2017.mp4"
+  ],
+  "youtube": [],
+  "description": "",
+  "pd": true
+ },
+ "drones-science-walrus-carcass-survey": {
+  "page_url": "https://www.usgs.gov/media/videos/drones-science-walrus-carcass-survey",
+  "title": "Drones for Science: Walrus Carcass Survey",
+  "mp4": [
+   "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/video/Drones%20for%20Science%20-%20Walrus%20Carcass%20Survey_0.mp4",
+   "https://usgs-ocapsv2-public-output-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/video/Drones_for_Science_-_Walrus_Carcass_Survey_0/MP4/Drones_for_Science_-_Walrus_Carcass_Survey_0.mp4"
+  ],
+  "youtube": [],
+  "description": "",
+  "pd": true
+ }
+}

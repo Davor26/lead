@@ -1,0 +1,44 @@
+{
+ "usgs_usgs-science-walrus-haul-out-2011.mp4": {
+  "provider": "USGS",
+  "title": "USGS Science: Walrus Haul-Out 2011",
+  "page_url": "https://www.usgs.gov/media/videos/usgs-science-walrus-haul-out-2011",
+  "download_url": "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/walrus.mp4",
+  "licence": "Public domain (U.S. Government work, USGS)"
+ },
+ "usgs_tracking-pacific-walrus-trailer.mp4": {
+  "provider": "USGS",
+  "title": "Tracking Pacific Walrus Trailer",
+  "page_url": "https://www.usgs.gov/media/videos/tracking-pacific-walrus-trailer",
+  "download_url": "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/tracking-walrus-trailer.mp4",
+  "licence": "Public domain (U.S. Government work, USGS)"
+ },
+ "usgs_polar-bear-collar-cam-b-roll-2014-2015-2.mp4": {
+  "provider": "USGS",
+  "title": "Polar Bear Collar Cam B-Roll 2014, 2015, 2016",
+  "page_url": "https://www.usgs.gov/media/videos/polar-bear-collar-cam-b-roll-2014-2015-2016",
+  "download_url": "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-allclips.mp4",
+  "licence": "Public domain (U.S. Government work, USGS)"
+ },
+ "usgs_pov-polar-bear-collar-cam-b-roll-2019-20.mp4": {
+  "provider": "USGS",
+  "title": "POV Polar Bear Collar Cam B-roll 2019, 2021, and 2022",
+  "page_url": "https://www.usgs.gov/media/videos/pov-polar-bear-collar-cam-b-roll-2019-2021-and-2022",
+  "download_url": "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/video/PolarBearCollarCamera.mp4",
+  "licence": "Public domain (U.S. Government work, USGS)"
+ },
+ "usgs_polar-bears-film-their-own-sea-ice-world.mp4": {
+  "provider": "USGS",
+  "title": "Polar Bears Film Their Own Sea Ice World",
+  "page_url": "https://www.usgs.gov/media/videos/polar-bears-film-their-own-sea-ice-world",
+  "download_url": "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-2018.mp4",
+  "licence": "Public domain (U.S. Government work, USGS)"
+ },
+ "usgs_polar-bear-pov-cams-spring-2016.mp4": {
+  "provider": "USGS",
+  "title": "Polar Bear - POV Cams (Spring 2016)",
+  "page_url": "https://www.usgs.gov/media/videos/polar-bear-pov-cams-spring-2016",
+  "download_url": "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/polar-bear-2017.mp4",
+  "licence": "Public domain (U.S. Government work, USGS)"
+ }
+}
