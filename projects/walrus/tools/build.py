@@ -246,5 +246,5 @@ if __name__ == '__main__':
         for n in todo:
             render_beat(n); print('beat', n, flush=True)
     elif cmd == 'cards':
-        for ci in range(2, 14): render_card(ci)
+        for ci in range(2, 15): render_card(ci)
     elif cmd == 'chunks': chunks()

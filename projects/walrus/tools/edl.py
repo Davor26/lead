@@ -13,8 +13,8 @@ A5, A6, A7, A8 = 'IMG:walrus_ai_05_stampede.jpg', 'IMG:walrus_ai_06_bear_lifts_i
 KB_IN = {'kb': ((0.5, 0.5, 1.0), (0.5, 0.48, 0.86))}
 KB_OUT = {'kb': ((0.55, 0.5, 0.8), (0.5, 0.5, 0.96))}
 # stampede image: always cropped to the herd on the left (the far right of the beach must never show)
-KB_ST1 = {'kb': ((0.30, 0.60, 0.56), (0.27, 0.62, 0.48))}
-KB_ST2 = {'kb': ((0.22, 0.66, 0.42), (0.30, 0.62, 0.50))}
+KB_ST1 = {'kb': ((0.30, 0.74, 0.44), (0.27, 0.75, 0.38))}
+KB_ST2 = {'kb': ((0.22, 0.76, 0.36), (0.30, 0.74, 0.42))}
 EDL = {
  1: [(A1, 0, 1, KB_IN)],
  2: [('G:throwice', 0, 1, {'p': {}})],
