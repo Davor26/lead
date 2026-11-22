@@ -1,0 +1,91 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#000}svg{position:absolute;inset:0}
+.S{position:absolute;font-family:'Inter Display',Inter,sans-serif;font-weight:900;color:#fff;letter-spacing:-1.5px;line-height:.93;text-shadow:0 6px 24px rgba(0,0,0,.95)}
+.S b{color:#e5231f}
+.F{position:absolute;font-family:'Caladea','DejaVu Serif',serif;font-weight:700;color:#fff;line-height:1.0;text-shadow:0 6px 24px rgba(0,0,0,.95)}
+</style></head><body><svg width="1280" height="720" viewBox="0 0 1280 720"><defs>
+  <radialGradient id="glow" cx="70%" cy="38%" r="55%"><stop offset="0" stop-color="#0d2c45" stop-opacity=".9"/><stop offset=".6" stop-color="#04111c" stop-opacity=".6"/><stop offset="1" stop-color="#000"/></radialGradient>
+  <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd0ff" stop-opacity=".16"/><stop offset="1" stop-color="#8fd0ff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3a47"/><stop offset=".22" stop-color="#121a22"/><stop offset=".7" stop-color="#06090d"/><stop offset="1" stop-color="#020304"/></linearGradient>
+  <linearGradient id="white" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#dfe8ee"/><stop offset="1" stop-color="#8fa2b0"/></linearGradient>
+  <linearGradient id="patch" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f4f8fa"/><stop offset="1" stop-color="#c9d5dd"/></linearGradient>
+  <radialGradient id="torch" cx="8%" cy="52%" r="35%"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <filter id="tex" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9 0.35" numOctaves="3" seed="7"/><feColorMatrix values="0 0 0 0 .6  0 0 0 0 .7  0 0 0 0 .8  0 0 0 .07 0"/></filter>
+  <filter id="b2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+  <filter id="b6" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="b14" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  <clipPath id="bodyclip"><path id="bodyp" d="M30,262 C28,222 60,186 120,168 C200,146 300,134 430,128 C560,122 700,122 860,134 C930,139 990,146 1040,152 L1040,486 C960,476 880,466 800,458 C660,444 540,426 430,410 C330,394 240,370 170,346 C110,324 60,300 40,284 C34,278 30,270 30,262 Z"/></clipPath>
+<g id="orca">  <!-- dorsal fin rising off the top -->
+  <path d="M700,132 C716,60 738,-40 770,-170 C790,-60 812,40 860,136 Z" fill="url(#skin)"/>
+  <path d="M770,-170 C790,-60 812,40 860,136" fill="none" stroke="#6fb9e6" stroke-width="3" opacity=".55" filter="url(#b2)"/>
+  <!-- pectoral fin (behind the body) -->
+  
+  <path d="M400,392 C380,440 350,500 318,548 C372,540 450,494 500,412 Z" fill="url(#skin)"/>
+  <path d="M318,548 C372,540 450,494 500,412" fill="none" stroke="#6fb9e6" stroke-width="2.5" opacity=".45" filter="url(#b2)"/>
+
+  <!-- body -->
+  <use href="#bodyp" fill="url(#skin)"/>
+  <g clip-path="url(#bodyclip)">
+    <rect x="0" y="100" width="1100" height="420" filter="url(#tex)"/>
+    <!-- saddle patch -->
+    <path d="M860,140 C900,150 960,156 1040,160 L1040,200 C960,196 900,186 850,170 Z" fill="#7d8b96" opacity=".55" filter="url(#b6)"/>
+    <!-- white chin, throat and belly band -->
+    <path d="M40,282 C60,290 110,300 170,306 C240,312 300,318 360,330 C460,350 560,380 660,410 C740,432 820,446 900,456 C960,462 1000,466 1040,468 L1040,500 L0,500 L0,300 Z" fill="url(#white)"/>
+    <path d="M40,282 C60,290 110,300 170,306 C240,312 300,318 360,330 C460,350 560,380 660,410 C740,432 820,446 900,456" fill="none" stroke="#000" stroke-width="2" opacity=".25" filter="url(#b2)"/>
+    <!-- torch light on the face -->
+    <rect x="0" y="100" width="700" height="420" fill="url(#torch)"/>
+  </g>
+  <!-- rim light along the top -->
+  <path d="M30,262 C28,222 60,186 120,168 C200,146 300,134 430,128 C560,122 700,122 860,134 C930,139 990,146 1040,152" fill="none" stroke="#7fc8f2" stroke-width="4" opacity=".7" filter="url(#b2)"/>
+  <path d="M130,186 C200,163 300,140 430,130 C560,121 700,122 860,134" fill="none" stroke="#bfe6ff" stroke-width="10" opacity=".18" filter="url(#b14)"/>
+  <!-- mouth: slightly open jaw, a few teeth -->
+  <path d="M34,266 C70,276 130,288 200,296 L198,304 C130,298 72,288 38,278 Z" fill="#2a0b0e"/>
+  <g fill="#ece9df"><path d="M58,272 l4,7 l4,-6 Z"/><path d="M78,277 l4,7 l4,-6 Z"/><path d="M98,281 l4,7 l4,-6 Z"/><path d="M118,285 l4,7 l4,-6 Z"/><path d="M138,288 l4,7 l4,-6 Z"/><path d="M158,291 l3,6 l3,-5 Z"/>
+  <path d="M66,285 l4,-6 l4,6 Z"/><path d="M86,289 l4,-6 l4,6 Z"/><path d="M106,293 l4,-6 l4,6 Z"/><path d="M126,296 l4,-6 l4,6 Z"/><path d="M146,299 l3,-5 l3,5 Z"/></g>
+  <path d="M34,266 C70,276 130,288 200,296" fill="none" stroke="#000" stroke-width="3" opacity=".85"/>
+  <!-- eye and eye patch -->
+  <path d="M262,236 C300,214 380,206 440,214 C466,218 468,232 442,240 C392,254 312,256 262,236 Z" fill="url(#patch)"/>
+  <ellipse cx="224" cy="276" rx="6.5" ry="4.5" fill="#05070a"/><circle cx="222" cy="274.5" r="1.6" fill="#dff3ff"/></g>
+<linearGradient id="sharkskin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4b5a66"/><stop offset=".55" stop-color="#2a333b"/><stop offset=".6" stop-color="#d9e1e6"/><stop offset="1" stop-color="#9aa8b2"/></linearGradient>
+<radialGradient id="surf" cx="50%" cy="0%" r="70%"><stop offset="0" stop-color="#bfe6ff" stop-opacity=".9"/><stop offset=".35" stop-color="#2f7fb0" stop-opacity=".55"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<defs>
+ <radialGradient id="cone" cx="66%" cy="0%" r="75%"><stop offset="0" stop-color="#9fdcff" stop-opacity=".55"/><stop offset=".28" stop-color="#1f5f88" stop-opacity=".35"/><stop offset=".7" stop-color="#03101a" stop-opacity=".2"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+ <radialGradient id="vig2" cx="60%" cy="45%" r="75%"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".85"/></radialGradient>
+ <linearGradient id="shaft2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cdeeff" stop-opacity=".22"/><stop offset="1" stop-color="#cdeeff" stop-opacity="0"/></linearGradient>
+ <filter id="grain2" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .06 0"/></filter>
+</defs>
+<rect width="1280" height="720" fill="#000"/>
+<rect width="1280" height="720" fill="url(#cone)"/>
+<!-- god rays from the surface -->
+<g><polygon points="790,0 840,0 900,560 760,560" fill="url(#shaft2)"/><polygon points="880,0 910,0 1040,600 950,600" fill="url(#shaft2)" opacity=".8"/><polygon points="700,0 735,0 700,520 610,520" fill="url(#shaft2)" opacity=".6"/></g>
+<!-- surface line with ripples -->
+<path d="M420,30 C520,24 600,38 700,30 C800,22 900,38 1000,30 C1100,22 1180,34 1280,28" fill="none" stroke="#e6f7ff" stroke-width="2.5" opacity=".55"/>
+<!-- the orca: bigger, closer, rising with jaws open -->
+<g transform="translate(1150,268) rotate(86) scale(1.0)">
+  <use href="#orca"/>
+  <!-- open jaw -->
+  <path d="M34,266 C80,280 150,298 214,306 L206,318 C150,322 96,330 52,338 C40,322 34,296 34,266 Z" fill="#1b0608"/>
+  <path d="M52,338 C96,330 150,322 206,318" fill="none" stroke="#e9eef2" stroke-width="5" opacity=".9"/>
+  <g fill="#f1eee6">
+   <path d="M56,272 l5,10 l5,-9 Z"/><path d="M78,278 l5,10 l5,-9 Z"/><path d="M100,283 l5,10 l5,-9 Z"/><path d="M122,288 l5,10 l5,-9 Z"/><path d="M144,292 l5,10 l5,-9 Z"/><path d="M166,296 l4,9 l4,-8 Z"/><path d="M186,299 l4,8 l4,-7 Z"/>
+   <path d="M62,334 l5,-10 l5,9 Z"/><path d="M84,331 l5,-10 l5,9 Z"/><path d="M106,328 l5,-10 l5,9 Z"/><path d="M128,325 l5,-10 l5,9 Z"/><path d="M150,323 l5,-10 l5,9 Z"/><path d="M172,321 l4,-9 l4,8 Z"/>
+  </g>
+</g>
+<!-- snorkeler at the surface, seen from below, backlit -->
+<g transform="translate(862,96) rotate(4) scale(1.25)" fill="#010203">
+  <ellipse cx="0" cy="-4" rx="10" ry="11"/>
+  <path d="M-12,6 C-16,24 -14,40 -10,54 L10,54 C14,40 16,24 12,6 C6,2 -6,2 -12,6 Z"/>
+  <path d="M-11,10 C-26,4 -38,-6 -48,-18 L-41,-23 C-32,-13 -20,-5 -7,0 Z"/>
+  <path d="M11,10 C26,6 38,0 50,-8 L46,-15 C34,-8 22,-3 7,0 Z"/>
+  <path d="M-10,52 C-12,66 -14,78 -15,88 L-5,90 C-4,80 -2,66 0,54 Z M10,52 C12,66 14,78 15,88 L5,90 C4,80 2,66 0,54 Z"/>
+  <path d="M-15,86 L-22,118 L-4,116 L-5,88 Z M15,86 L22,118 L4,116 L5,88 Z"/>
+  <rect x="7" y="-20" width="4" height="18" rx="2"/>
+</g>
+<!-- red hand-drawn arrow from the text to the swimmer -->
+<path d="M470,300 C520,210 640,130 790,104" fill="none" stroke="#e5231f" stroke-width="9" stroke-linecap="round"/>
+<path d="M760,80 L800,102 L766,128" fill="none" stroke="#e5231f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="1280" height="720" fill="url(#vig2)"/>
+<rect width="1280" height="720" filter="url(#grain2)"/>
+</svg><div class="S" style="left:46px;top:300px;font-size:118px">IT COULD.<br><b>IT WON'T.</b></div></body></html>
