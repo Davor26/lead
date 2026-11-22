@@ -1,0 +1,318 @@
+[
+ {
+  "name": "throwice",
+  "dur": 4.3333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b002_throwice.mp4"
+ },
+ {
+  "name": "throwice",
+  "dur": 9.1667,
+  "params": {
+   "t0": 3.9
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/b003_throwice.mp4"
+ },
+ {
+  "name": "wtitle",
+  "dur": 5.6,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b009_ov_wtitle.mov"
+ },
+ {
+  "name": "wsize",
+  "dur": 9.6333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b011_wsize.mp4"
+ },
+ {
+  "name": "cutaway",
+  "dur": 10.7333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b013_cutaway.mp4"
+ },
+ {
+  "name": "cutaway",
+  "dur": 12.9333,
+  "params": {
+   "t0": 4.0
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/b014_cutaway.mp4"
+ },
+ {
+  "name": "skull",
+  "dur": 9.0333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b015_skull.mp4"
+ },
+ {
+  "name": "chukchi",
+  "dur": 11.5,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b018_chukchi.mp4"
+ },
+ {
+  "name": "svalbard",
+  "dur": 10.7667,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b026_svalbard.mp4"
+ },
+ {
+  "name": "svalbard",
+  "dur": 3.0667,
+  "params": {
+   "touch": true
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/b028_svalbard.mp4"
+ },
+ {
+  "name": "wrangel",
+  "dur": 17.8333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b031_wrangel.mp4"
+ },
+ {
+  "name": "wound",
+  "dur": 13.4,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b038_wound.mp4"
+ },
+ {
+  "name": "adults",
+  "dur": 10.5333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b041_adults.mp4"
+ },
+ {
+  "name": "adults",
+  "dur": 4.2667,
+  "params": {
+   "t0": 6.0
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/b042_adults.mp4"
+ },
+ {
+  "name": "attempts",
+  "dur": 11.8,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b048_attempts.mp4"
+ },
+ {
+  "name": "carcasses",
+  "dur": 7.5333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b050_carcasses.mp4"
+ },
+ {
+  "name": "study",
+  "dur": 13.9,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b053_study.mp4"
+ },
+ {
+  "name": "throwice",
+  "dur": 19.3667,
+  "params": {
+   "stone": true,
+   "kick": "THE TARGET",
+   "caption": "the head"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/b056_throwice.mp4"
+ },
+ {
+  "name": "gogo",
+  "dur": 7.7667,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b057_gogo.mp4"
+ },
+ {
+  "name": "gogo",
+  "dur": 7.2,
+  "params": {
+   "drop": true
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/b058_gogo.mp4"
+ },
+ {
+  "name": "toolusers",
+  "dur": 17.6667,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b059_toolusers.mp4"
+ },
+ {
+  "name": "tongue",
+  "dur": 10.1,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b066_tongue.mp4"
+ },
+ {
+  "name": "clams",
+  "dur": 13.7667,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b068_clams.mp4"
+ },
+ {
+  "name": "iceedge",
+  "dur": 11.7333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b080_iceedge.mp4"
+ },
+ {
+  "name": "iceedge",
+  "dur": 10.2,
+  "params": {
+   "t0": 6.0
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/b081_iceedge.mp4"
+ },
+ {
+  "name": "chukchi",
+  "dur": 11.8,
+  "params": {
+   "focus": "Point Lay",
+   "title": "POINT LAY, ALASKA \u2014 ~35,000 WALRUSES"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/b085_chukchi.mp4"
+ },
+ {
+  "name": "trampled",
+  "dur": 11.2333,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b087_trampled.mp4"
+ },
+ {
+  "name": "population",
+  "dur": 6.3667,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b093_population.mp4"
+ },
+ {
+  "name": "iucn",
+  "dur": 4.9,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b094_iucn.mp4"
+ },
+ {
+  "name": "endcard",
+  "dur": 18.6,
+  "params": {},
+  "out": "/home/user/lead/projects/walrus/graphics/out/b101_endcard.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 2",
+   "title": "A fortress with tusks"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_02.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 3",
+   "title": "Life on the ice"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_03.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 4",
+   "title": "Svalbard, 2015"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_04.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 5",
+   "title": "Wrangel Island, 1990"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_05.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 6",
+   "title": "When the walrus fights back"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_06.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 7",
+   "title": "The stampede"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_07.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 8",
+   "title": "The weapon"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_08.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 9",
+   "title": "Whiskers and clams"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_09.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 10",
+   "title": "Mothers"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_10.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 11",
+   "title": "Songs under the ice"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_11.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 12",
+   "title": "The lost ice"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_12.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 13",
+   "title": "The crowded beaches"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_13.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 14",
+   "title": "Conclusion"
+  },
+  "out": "/home/user/lead/projects/walrus/graphics/out/card_14.mp4"
+ }
+]

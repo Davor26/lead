@@ -1,0 +1,821 @@
+{
+ "length_scale": 1.32,
+ "sample_rate": 22050,
+ "beat_gap": 0.8,
+ "sentence_gap": 0.45,
+ "tts_pronunciation_aids": {
+  "Brancheau": "Bran-shoh",
+  "W\u00fcrsig": "Werzig",
+  "J35": "J thirty-five"
+ },
+ "beats": [
+  {
+   "beat": 1,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 0.0,
+   "speech_dur": 7.834,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 2,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 8.634,
+   "speech_dur": 3.541,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 3,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 12.975,
+   "speech_dur": 8.345,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 4,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 23.12,
+   "speech_dur": 12.13,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 5,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 36.049,
+   "speech_dur": 9.668,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 6,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 46.518,
+   "speech_dur": 1.753,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 7,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 51.071,
+   "speech_dur": 13.799,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 8,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 65.669,
+   "speech_dur": 4.214,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 9,
+   "chapter": "1 \u2014 The paradox",
+   "chapter_index": 1,
+   "start_in_chapter": 72.684,
+   "speech_dur": 5.21,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 10,
+   "chapter": "2 \u2014 A fortress with tusks",
+   "chapter_index": 2,
+   "start_in_chapter": 0.0,
+   "speech_dur": 9.355,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 11,
+   "chapter": "2 \u2014 A fortress with tusks",
+   "chapter_index": 2,
+   "start_in_chapter": 10.155,
+   "speech_dur": 8.809,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 12,
+   "chapter": "2 \u2014 A fortress with tusks",
+   "chapter_index": 2,
+   "start_in_chapter": 19.764,
+   "speech_dur": 7.645,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 13,
+   "chapter": "2 \u2014 A fortress with tusks",
+   "chapter_index": 2,
+   "start_in_chapter": 28.209,
+   "speech_dur": 9.924,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 14,
+   "chapter": "2 \u2014 A fortress with tusks",
+   "chapter_index": 2,
+   "start_in_chapter": 38.933,
+   "speech_dur": 12.153,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 15,
+   "chapter": "2 \u2014 A fortress with tusks",
+   "chapter_index": 2,
+   "start_in_chapter": 51.886,
+   "speech_dur": 8.217,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 16,
+   "chapter": "2 \u2014 A fortress with tusks",
+   "chapter_index": 2,
+   "start_in_chapter": 60.903,
+   "speech_dur": 7.639,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 17,
+   "chapter": "2 \u2014 A fortress with tusks",
+   "chapter_index": 2,
+   "start_in_chapter": 69.342,
+   "speech_dur": 7.335,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 18,
+   "chapter": "3 \u2014 Life on the ice",
+   "chapter_index": 3,
+   "start_in_chapter": 0.0,
+   "speech_dur": 10.702,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 19,
+   "chapter": "3 \u2014 Life on the ice",
+   "chapter_index": 3,
+   "start_in_chapter": 11.502,
+   "speech_dur": 8.74,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 20,
+   "chapter": "3 \u2014 Life on the ice",
+   "chapter_index": 3,
+   "start_in_chapter": 21.041,
+   "speech_dur": 8.684,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 21,
+   "chapter": "3 \u2014 Life on the ice",
+   "chapter_index": 3,
+   "start_in_chapter": 30.525,
+   "speech_dur": 14.939,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 22,
+   "chapter": "3 \u2014 Life on the ice",
+   "chapter_index": 3,
+   "start_in_chapter": 46.265,
+   "speech_dur": 9.68,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 23,
+   "chapter": "3 \u2014 Life on the ice",
+   "chapter_index": 3,
+   "start_in_chapter": 56.744,
+   "speech_dur": 7.938,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 24,
+   "chapter": "3 \u2014 Life on the ice",
+   "chapter_index": 3,
+   "start_in_chapter": 67.483,
+   "speech_dur": 14.591,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 25,
+   "chapter": "4 \u2014 Svalbard, 2015",
+   "chapter_index": 4,
+   "start_in_chapter": 0.0,
+   "speech_dur": 10.971,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 26,
+   "chapter": "4 \u2014 Svalbard, 2015",
+   "chapter_index": 4,
+   "start_in_chapter": 11.771,
+   "speech_dur": 9.944,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 27,
+   "chapter": "4 \u2014 Svalbard, 2015",
+   "chapter_index": 4,
+   "start_in_chapter": 22.516,
+   "speech_dur": 13.105,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 28,
+   "chapter": "4 \u2014 Svalbard, 2015",
+   "chapter_index": 4,
+   "start_in_chapter": 36.42,
+   "speech_dur": 2.276,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 29,
+   "chapter": "4 \u2014 Svalbard, 2015",
+   "chapter_index": 4,
+   "start_in_chapter": 39.496,
+   "speech_dur": 10.362,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 30,
+   "chapter": "4 \u2014 Svalbard, 2015",
+   "chapter_index": 4,
+   "start_in_chapter": 52.658,
+   "speech_dur": 4.992,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 31,
+   "chapter": "5 \u2014 Wrangel Island, 1990",
+   "chapter_index": 5,
+   "start_in_chapter": 0.0,
+   "speech_dur": 17.041,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 32,
+   "chapter": "5 \u2014 Wrangel Island, 1990",
+   "chapter_index": 5,
+   "start_in_chapter": 17.841,
+   "speech_dur": 11.564,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 33,
+   "chapter": "5 \u2014 Wrangel Island, 1990",
+   "chapter_index": 5,
+   "start_in_chapter": 30.204,
+   "speech_dur": 14.159,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 34,
+   "chapter": "5 \u2014 Wrangel Island, 1990",
+   "chapter_index": 5,
+   "start_in_chapter": 45.163,
+   "speech_dur": 11.639,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 35,
+   "chapter": "5 \u2014 Wrangel Island, 1990",
+   "chapter_index": 5,
+   "start_in_chapter": 57.602,
+   "speech_dur": 3.634,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 36,
+   "chapter": "6 \u2014 When the walrus fights back",
+   "chapter_index": 6,
+   "start_in_chapter": 0.0,
+   "speech_dur": 13.984,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 37,
+   "chapter": "6 \u2014 When the walrus fights back",
+   "chapter_index": 6,
+   "start_in_chapter": 14.784,
+   "speech_dur": 5.747,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 38,
+   "chapter": "6 \u2014 When the walrus fights back",
+   "chapter_index": 6,
+   "start_in_chapter": 21.331,
+   "speech_dur": 12.614,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 39,
+   "chapter": "6 \u2014 When the walrus fights back",
+   "chapter_index": 6,
+   "start_in_chapter": 34.746,
+   "speech_dur": 7.036,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 40,
+   "chapter": "6 \u2014 When the walrus fights back",
+   "chapter_index": 6,
+   "start_in_chapter": 42.581,
+   "speech_dur": 9.877,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 41,
+   "chapter": "6 \u2014 When the walrus fights back",
+   "chapter_index": 6,
+   "start_in_chapter": 53.259,
+   "speech_dur": 9.75,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 42,
+   "chapter": "6 \u2014 When the walrus fights back",
+   "chapter_index": 6,
+   "start_in_chapter": 63.808,
+   "speech_dur": 3.448,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 43,
+   "chapter": "6 \u2014 When the walrus fights back",
+   "chapter_index": 6,
+   "start_in_chapter": 70.056,
+   "speech_dur": 8.6,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 44,
+   "chapter": "7 \u2014 The stampede",
+   "chapter_index": 7,
+   "start_in_chapter": 0.0,
+   "speech_dur": 7.076,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 45,
+   "chapter": "7 \u2014 The stampede",
+   "chapter_index": 7,
+   "start_in_chapter": 7.876,
+   "speech_dur": 13.253,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 46,
+   "chapter": "7 \u2014 The stampede",
+   "chapter_index": 7,
+   "start_in_chapter": 21.929,
+   "speech_dur": 12.455,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 47,
+   "chapter": "7 \u2014 The stampede",
+   "chapter_index": 7,
+   "start_in_chapter": 35.184,
+   "speech_dur": 6.777,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 48,
+   "chapter": "7 \u2014 The stampede",
+   "chapter_index": 7,
+   "start_in_chapter": 42.762,
+   "speech_dur": 10.977,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 49,
+   "chapter": "7 \u2014 The stampede",
+   "chapter_index": 7,
+   "start_in_chapter": 54.539,
+   "speech_dur": 3.738,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 50,
+   "chapter": "7 \u2014 The stampede",
+   "chapter_index": 7,
+   "start_in_chapter": 59.077,
+   "speech_dur": 6.722,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 51,
+   "chapter": "7 \u2014 The stampede",
+   "chapter_index": 7,
+   "start_in_chapter": 66.6,
+   "speech_dur": 6.418,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 52,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 0.0,
+   "speech_dur": 3.46,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 53,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 4.26,
+   "speech_dur": 13.108,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 54,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 18.167,
+   "speech_dur": 16.286,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 55,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 35.253,
+   "speech_dur": 10.031,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 56,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 46.084,
+   "speech_dur": 18.565,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 57,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 65.449,
+   "speech_dur": 6.966,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 58,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 73.215,
+   "speech_dur": 6.42,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 59,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 80.435,
+   "speech_dur": 16.864,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 60,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 98.099,
+   "speech_dur": 12.942,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 61,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 111.841,
+   "speech_dur": 8.414,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 62,
+   "chapter": "8 \u2014 The weapon",
+   "chapter_index": 8,
+   "start_in_chapter": 121.056,
+   "speech_dur": 5.375,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 63,
+   "chapter": "9 \u2014 Whiskers and clams",
+   "chapter_index": 9,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.642,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 64,
+   "chapter": "9 \u2014 Whiskers and clams",
+   "chapter_index": 9,
+   "start_in_chapter": 6.442,
+   "speech_dur": 11.897,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 65,
+   "chapter": "9 \u2014 Whiskers and clams",
+   "chapter_index": 9,
+   "start_in_chapter": 19.14,
+   "speech_dur": 10.121,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 66,
+   "chapter": "9 \u2014 Whiskers and clams",
+   "chapter_index": 9,
+   "start_in_chapter": 30.061,
+   "speech_dur": 9.308,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 67,
+   "chapter": "9 \u2014 Whiskers and clams",
+   "chapter_index": 9,
+   "start_in_chapter": 40.169,
+   "speech_dur": 5.224,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 68,
+   "chapter": "9 \u2014 Whiskers and clams",
+   "chapter_index": 9,
+   "start_in_chapter": 46.194,
+   "speech_dur": 12.974,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 69,
+   "chapter": "9 \u2014 Whiskers and clams",
+   "chapter_index": 9,
+   "start_in_chapter": 59.968,
+   "speech_dur": 6.011,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 70,
+   "chapter": "10 \u2014 Mothers",
+   "chapter_index": 10,
+   "start_in_chapter": 0.0,
+   "speech_dur": 12.606,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 71,
+   "chapter": "10 \u2014 Mothers",
+   "chapter_index": 10,
+   "start_in_chapter": 13.406,
+   "speech_dur": 8.336,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 72,
+   "chapter": "10 \u2014 Mothers",
+   "chapter_index": 10,
+   "start_in_chapter": 22.542,
+   "speech_dur": 11.758,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 73,
+   "chapter": "10 \u2014 Mothers",
+   "chapter_index": 10,
+   "start_in_chapter": 35.1,
+   "speech_dur": 10.377,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 74,
+   "chapter": "11 \u2014 Songs under the ice",
+   "chapter_index": 11,
+   "start_in_chapter": 0.0,
+   "speech_dur": 8.609,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 75,
+   "chapter": "11 \u2014 Songs under the ice",
+   "chapter_index": 11,
+   "start_in_chapter": 9.409,
+   "speech_dur": 10.957,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 76,
+   "chapter": "11 \u2014 Songs under the ice",
+   "chapter_index": 11,
+   "start_in_chapter": 21.166,
+   "speech_dur": 7.187,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 77,
+   "chapter": "11 \u2014 Songs under the ice",
+   "chapter_index": 11,
+   "start_in_chapter": 29.153,
+   "speech_dur": 8.217,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 78,
+   "chapter": "11 \u2014 Songs under the ice",
+   "chapter_index": 11,
+   "start_in_chapter": 38.17,
+   "speech_dur": 6.13,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 79,
+   "chapter": "12 \u2014 The lost ice",
+   "chapter_index": 12,
+   "start_in_chapter": 0.0,
+   "speech_dur": 3.855,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 80,
+   "chapter": "12 \u2014 The lost ice",
+   "chapter_index": 12,
+   "start_in_chapter": 4.655,
+   "speech_dur": 10.913,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 81,
+   "chapter": "12 \u2014 The lost ice",
+   "chapter_index": 12,
+   "start_in_chapter": 16.368,
+   "speech_dur": 9.416,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 82,
+   "chapter": "12 \u2014 The lost ice",
+   "chapter_index": 12,
+   "start_in_chapter": 26.584,
+   "speech_dur": 15.412,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 83,
+   "chapter": "12 \u2014 The lost ice",
+   "chapter_index": 12,
+   "start_in_chapter": 42.796,
+   "speech_dur": 9.401,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 84,
+   "chapter": "12 \u2014 The lost ice",
+   "chapter_index": 12,
+   "start_in_chapter": 52.997,
+   "speech_dur": 7.454,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 85,
+   "chapter": "13 \u2014 The crowded beaches",
+   "chapter_index": 13,
+   "start_in_chapter": 0.0,
+   "speech_dur": 10.983,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 86,
+   "chapter": "13 \u2014 The crowded beaches",
+   "chapter_index": 13,
+   "start_in_chapter": 11.783,
+   "speech_dur": 5.433,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 87,
+   "chapter": "13 \u2014 The crowded beaches",
+   "chapter_index": 13,
+   "start_in_chapter": 18.017,
+   "speech_dur": 10.435,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 88,
+   "chapter": "13 \u2014 The crowded beaches",
+   "chapter_index": 13,
+   "start_in_chapter": 29.251,
+   "speech_dur": 9.427,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 89,
+   "chapter": "13 \u2014 The crowded beaches",
+   "chapter_index": 13,
+   "start_in_chapter": 39.478,
+   "speech_dur": 9.787,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 90,
+   "chapter": "13 \u2014 The crowded beaches",
+   "chapter_index": 13,
+   "start_in_chapter": 50.066,
+   "speech_dur": 11.503,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 91,
+   "chapter": "13 \u2014 The crowded beaches",
+   "chapter_index": 13,
+   "start_in_chapter": 62.368,
+   "speech_dur": 7.114,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 92,
+   "chapter": "13 \u2014 The crowded beaches",
+   "chapter_index": 13,
+   "start_in_chapter": 70.282,
+   "speech_dur": 3.193,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 93,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.596,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 94,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 6.396,
+   "speech_dur": 4.087,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 95,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 11.283,
+   "speech_dur": 11.389,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 96,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 23.472,
+   "speech_dur": 14.913,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 97,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 39.185,
+   "speech_dur": 7.036,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 98,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 47.021,
+   "speech_dur": 2.589,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 99,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 50.41,
+   "speech_dur": 9.947,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 100,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 61.157,
+   "speech_dur": 5.094,
+   "pause_after": 3.0
+  },
+  {
+   "beat": 101,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 70.051,
+   "speech_dur": 9.61,
+   "pause_after": 0.0
+  }
+ ]
+}

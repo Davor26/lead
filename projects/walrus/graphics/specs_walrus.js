@@ -209,3 +209,69 @@ G.throwice = { render(t, D, p) {
   s += rise(t, 3.8, W / 2, 1010, p && p.caption || 'aimed at the head', { size: 34, weight: 700 });
   return full(t, D, s);
 }};
+// film title overlay
+G.wtitle = { alpha: true, render(t, D) {
+  const k = eo(t, 0.2, 1.8), e = envelope(t, D, 0.01, 0.6);
+  let s = `<rect width="${W}" height="${H}" fill="#020a12" opacity="${0.5 * e}"/><g opacity="${e}">`;
+  s += txt(W / 2, 400, 'NATUREXPLORE', { size: 26, weight: 700, fill: C.ice, ls: 14, opacity: eo(t, 0.2, 1.2) });
+  s += `<g opacity="${k}">` + txt(W / 2, 540, 'WHY POLAR BEARS', { size: 120, weight: 800, ls: 2 + 8 * (1 - k) }) + txt(W / 2, 670, 'THROW ROCKS AT WALRUSES', { size: 92, weight: 800, ls: 2 + 8 * (1 - k) }) + '</g>';
+  s += `<rect x="${W / 2 - 160 * eo(t, 1.2, 2.4)}" y="716" width="${320 * eo(t, 1.2, 2.4)}" height="3" fill="${C.ice}"/>`;
+  return s + '</g>';
+}};
+// top-view walrus (oval with tusks) for herd diagrams
+function walrusTop(x, y, sc = 1, rot = 0, o = {}) {
+  return `<g transform="translate(${x},${y}) rotate(${rot}) scale(${sc})" opacity="${o.opacity === undefined ? 1 : o.opacity}"><ellipse cx="0" cy="0" rx="46" ry="22" fill="${o.fill || '#8a5a40'}"/><circle cx="44" cy="0" r="13" fill="${o.fill || '#8a5a40'}"/>
+   <path d="M52,-5 L64,-4 M52,5 L64,4" stroke="#f2ead8" stroke-width="3" stroke-linecap="round"/><path d="M-46,0 L-64,-10 L-62,10 Z" fill="${o.fill || '#7a4c35'}"/></g>`;
+}
+function bearTop(x, y, sc = 1, rot = 0, o = {}) {
+  return `<g transform="translate(${x},${y}) rotate(${rot}) scale(${sc})" opacity="${o.opacity === undefined ? 1 : o.opacity}"><ellipse cx="0" cy="0" rx="40" ry="20" fill="#f0ebde"/><ellipse cx="38" cy="0" rx="16" ry="11" fill="#f0ebde"/><circle cx="52" cy="0" r="3" fill="#111"/>
+   <ellipse cx="22" cy="-20" rx="7" ry="5" fill="#e6e0d2"/><ellipse cx="22" cy="20" rx="7" ry="5" fill="#e6e0d2"/><ellipse cx="-24" cy="-20" rx="7" ry="5" fill="#e6e0d2"/><ellipse cx="-24" cy="20" rx="7" ry="5" fill="#e6e0d2"/></g>`;
+}
+// Svalbard 2015: bear weaving through a sleeping herd (top view); p.touch = paw touch stage
+G.svalbard = { render(t, D, p) {
+  let s = kicker(t, 0.1, p && p.touch ? 'ONE TOUCH' : 'SVALBARD · JULY 2015', 120);
+  s += `<rect x="0" y="220" width="${W}" height="860" fill="#4a4a46" opacity=".55"/>`;
+  const herd = [[520, 420, 10], [700, 470, -20], [880, 430, 5], [1060, 500, 30], [1240, 440, -10], [1420, 520, 15], [620, 640, -5], [820, 680, 25], [1010, 700, -15], [1210, 660, 10], [1400, 720, -25], [760, 860, 5], [980, 880, -10], [1180, 860, 20]];
+  herd.forEach(([x, y, r], i) => s += walrusTop(x, y, 1.1, r, { opacity: eo(t, 0.2 + i * 0.04, 0.6 + i * 0.04) }));
+  if (!(p && p.touch)) {
+    const path = [[240, 960], [440, 560], [620, 560], [760, 580], [930, 600], [1110, 590], [1310, 600], [1500, 620], [1700, 520]];
+    const k = eio(t, 0.8, D - 1.0) * (path.length - 1), i = Math.min(path.length - 2, Math.floor(k)), f = k - i;
+    const bx = lerp(path[i][0], path[i + 1][0], f), by = lerp(path[i][1], path[i + 1][1], f);
+    const ang = Math.atan2(path[i + 1][1] - path[i][1], path[i + 1][0] - path[i][0]) * 180 / Math.PI;
+    s += `<polyline points="${path.slice(0, i + 1).map(q => q.join(',')).join(' ')} ${bx},${by}" fill="none" stroke="${C.ice}" stroke-width="4" stroke-dasharray="10 10" opacity=".7"/>`;
+    s += bearTop(bx, by, 1.3, ang);
+    s += bearTop(bx - 70 * Math.cos(ang * Math.PI / 180), by - 70 * Math.sin(ang * Math.PI / 180), 0.75, ang);
+    s += rise(t, 1.0, W / 2, 1020, 'sniffing one walrus after another', { size: 32, weight: 600 });
+  } else {
+    const k = eo(t, 0.6, 1.6), wake = eo(t, 1.8, 2.4), back = eio(t, 2.4, 4.0);
+    s += bearTop(820 - 140 * back, 600 + 10 * back, 1.4, 0);
+    s += `<circle cx="${905 - 140 * back}" cy="600" r="${22 * k * (1 - back)}" fill="none" stroke="${C.warm}" stroke-width="4"/>`;
+    s += txt(1010, 520, '!', { size: 80, weight: 800, fill: C.warm, opacity: wake });
+    s += rise(t, 2.6, W / 2, 1020, 'the walrus wakes, the bear backs away', { size: 32, weight: 600 });
+  }
+  return full(t, D, s);
+}};
+// GoGo: food hung out of reach, stick thrown
+G.gogo = { render(t, D, p) {
+  let s = kicker(t, 0.1, 'GOGO · OSAKA, JAPAN', 120);
+  s += `<rect x="200" y="880" width="1520" height="20" fill="#9fb3c4" opacity=".6"/><rect x="200" y="300" width="20" height="600" fill="#9fb3c4" opacity=".4"/><rect x="1700" y="300" width="20" height="600" fill="#9fb3c4" opacity=".4"/>`;
+  s += `<line x1="1100" y1="220" x2="1100" y2="${p && p.drop ? lerp(380, 380, 0) : 380}" stroke="${C.dim}" stroke-width="3"/>`;
+  const drop = p && p.drop ? eio(t, 3.0, 4.0) : 0;
+  s += `<g transform="translate(1100,${lerp(410, 840, drop)})"><ellipse cx="0" cy="0" rx="46" ry="30" fill="${C.warm}"/>${txt(0, 10, 'FOOD', { size: 20, weight: 800, fill: '#3a2410' })}</g>`;
+  s += bear(760, 790, 1.2, { flip: true });
+  if (p && p.drop) {
+    const k = seg(t, 1.0, 2.8), x = lerp(820, 1090, k), y = lerp(660, 420, k) - Math.sin(k * Math.PI) * 120;
+    s += `<g transform="translate(${x},${y}) rotate(${k * 720})"><rect x="-60" y="-6" width="120" height="12" rx="6" fill="#8a6a44"/></g>`;
+    s += rise(t, 0.4, W / 2, 1010, 'he threw sticks and other objects until the food fell', { size: 32, weight: 600 });
+  } else s += rise(t, 0.8, W / 2, 1010, 'food hung out of his reach', { size: 32, weight: 600 });
+  return full(t, D, s);
+}};
+// tool users card
+G.toolusers = { render(t, D) {
+  let s = kicker(t, 0.1, 'ANIMALS THAT USE TOOLS', 150);
+  const items = [['CHIMPANZEES', 'sticks to fish for termites'], ['SEA OTTERS', 'stones to crack shells'], ['NEW CALEDONIAN CROWS', 'twigs bent into hooks'], ['POLAR BEARS?', 'ice and stones, against walruses']];
+  items.forEach(([a, b], i) => { const y = 330 + i * 150, k = eo(t, 0.6 + i * 0.9, 1.2 + i * 0.9), last = i === 3;
+    s += `<g opacity="${k}" transform="translate(${(1 - k) * -30},0)"><rect x="460" y="${y}" width="1000" height="110" rx="14" fill="#0e2942" fill-opacity=".8" stroke="${last ? C.warm : C.faint}" stroke-width="${last ? 3 : 1.5}"/>
+     ${txt(500, y + 50, a, { size: 34, weight: 800, anchor: 'start', fill: last ? C.warm : C.ink, ls: 3 })}${txt(500, y + 90, b, { size: 26, weight: 500, anchor: 'start', fill: C.dim })}</g>`; });
+  return full(t, D, s);
+}};

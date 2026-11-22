@@ -1,0 +1,1782 @@
+{
+ "1": {
+  "vis": 289,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_01_bear_ridge_ice.jpg",
+    "in": 0,
+    "frames": 289,
+    "fx": {
+     "kb": [
+      [
+       0.5,
+       0.5,
+       1.0
+      ],
+      [
+       0.5,
+       0.48,
+       0.86
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "2": {
+  "vis": 130,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:throwice",
+    "in": 0,
+    "frames": 130,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "3": {
+  "vis": 275,
+  "black": 30,
+  "shots": [
+   {
+    "src": "G:throwice",
+    "in": 0,
+    "frames": 275,
+    "fx": {
+     "p": {
+      "t0": 3.9
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "4": {
+  "vis": 388,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_25245",
+    "in": 1.0,
+    "frames": 194,
+    "fx": {
+     "grade": "cool"
+    },
+    "src_len": 6.467
+   },
+   {
+    "src": "noaa_6214018299001",
+    "in": 15.0,
+    "frames": 194,
+    "fx": {},
+    "src_len": 6.467
+   }
+  ],
+  "overlay": null
+ },
+ "5": {
+  "vis": 315,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_6214018299001",
+    "in": 30.0,
+    "frames": 315,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 10.5
+   }
+  ],
+  "overlay": null
+ },
+ "6": {
+  "vis": 76,
+  "black": 60,
+  "shots": [
+   {
+    "src": "BLACK",
+    "in": 0,
+    "frames": 76,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "7": {
+  "vis": 438,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-pov-cams-spring-2016",
+    "in": 72.0,
+    "frames": 219,
+    "fx": {},
+    "src_len": 7.3
+   },
+   {
+    "src": "usgs_polar-bear-collar-cam-b-roll-2014-2015-2",
+    "in": 208.0,
+    "frames": 219,
+    "fx": {},
+    "src_len": 7.3
+   }
+  ],
+  "overlay": null
+ },
+ "8": {
+  "vis": 150,
+  "black": 60,
+  "shots": [
+   {
+    "src": "usgs_polar-bears-film-their-own-sea-ice-world",
+    "in": 8.0,
+    "frames": 150,
+    "fx": {},
+    "src_len": 5.0
+   }
+  ],
+  "overlay": null
+ },
+ "9": {
+  "vis": 180,
+  "black": 60,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-pov-cams-spring-2016",
+    "in": 5.0,
+    "frames": 180,
+    "fx": {
+     "grade": "dark",
+     "push": true
+    },
+    "src_len": 6.0
+   }
+  ],
+  "overlay": [
+   "wtitle",
+   {},
+   0.4
+  ]
+ },
+ "10": {
+  "vis": 304,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 106.0,
+    "frames": 304,
+    "fx": {},
+    "src_len": 10.133
+   }
+  ],
+  "overlay": null
+ },
+ "11": {
+  "vis": 289,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:wsize",
+    "in": 0,
+    "frames": 289,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "12": {
+  "vis": 253,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 60.0,
+    "frames": 253,
+    "fx": {},
+    "src_len": 8.433
+   }
+  ],
+  "overlay": null
+ },
+ "13": {
+  "vis": 322,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:cutaway",
+    "in": 0,
+    "frames": 322,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "14": {
+  "vis": 388,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:cutaway",
+    "in": 0,
+    "frames": 388,
+    "fx": {
+     "p": {
+      "t0": 4.0
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "15": {
+  "vis": 271,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:skull",
+    "in": 0,
+    "frames": 271,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "16": {
+  "vis": 253,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_tracking-pacific-walrus-trailer",
+    "in": 2.0,
+    "frames": 253,
+    "fx": {},
+    "src_len": 8.433
+   }
+  ],
+  "overlay": null
+ },
+ "17": {
+  "vis": 244,
+  "black": 30,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-pov-cams-spring-2016",
+    "in": 79.0,
+    "frames": 244,
+    "fx": {},
+    "src_len": 8.133
+   }
+  ],
+  "overlay": null
+ },
+ "18": {
+  "vis": 345,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:chukchi",
+    "in": 0,
+    "frames": 345,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "19": {
+  "vis": 286,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_48402",
+    "in": 1.0,
+    "frames": 286,
+    "fx": {},
+    "src_len": 9.533
+   }
+  ],
+  "overlay": null
+ },
+ "20": {
+  "vis": 285,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_8141",
+    "in": 1.0,
+    "frames": 142,
+    "fx": {},
+    "src_len": 4.733
+   },
+   {
+    "src": "mk_35659",
+    "in": 0,
+    "frames": 143,
+    "fx": {
+     "grade": "cool",
+     "slow": 1.159
+    },
+    "src_len": 4.113
+   }
+  ],
+  "overlay": null
+ },
+ "21": {
+  "vis": 472,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 25.0,
+    "frames": 236,
+    "fx": {},
+    "src_len": 7.867
+   },
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 135.0,
+    "frames": 236,
+    "fx": {},
+    "src_len": 7.867
+   }
+  ],
+  "overlay": null
+ },
+ "22": {
+  "vis": 314,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 88.0,
+    "frames": 314,
+    "fx": {
+     "push": true
+    },
+    "src_len": 10.467
+   }
+  ],
+  "overlay": null
+ },
+ "23": {
+  "vis": 263,
+  "black": 60,
+  "shots": [
+   {
+    "src": "usgs_polar-bears-film-their-own-sea-ice-world",
+    "in": 92.0,
+    "frames": 263,
+    "fx": {},
+    "src_len": 8.767
+   }
+  ],
+  "overlay": null
+ },
+ "24": {
+  "vis": 461,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-collar-cam-b-roll-2014-2015-2",
+    "in": 2705.0,
+    "frames": 230,
+    "fx": {},
+    "src_len": 7.667
+   },
+   {
+    "src": "usgs_polar-bear-collar-cam-b-roll-2014-2015-2",
+    "in": 1393.0,
+    "frames": 231,
+    "fx": {},
+    "src_len": 7.7
+   }
+  ],
+  "overlay": null
+ },
+ "25": {
+  "vis": 353,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_02_bear_sniffs_walrus.jpg",
+    "in": 0,
+    "frames": 353,
+    "fx": {
+     "kb": [
+      [
+       0.5,
+       0.5,
+       1.0
+      ],
+      [
+       0.5,
+       0.48,
+       0.86
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "26": {
+  "vis": 323,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:svalbard",
+    "in": 0,
+    "frames": 323,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "27": {
+  "vis": 417,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_02_bear_sniffs_walrus.jpg",
+    "in": 0,
+    "frames": 417,
+    "fx": {
+     "kb": [
+      [
+       0.6,
+       0.45,
+       0.62
+      ],
+      [
+       0.62,
+       0.44,
+       0.54
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "28": {
+  "vis": 92,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:svalbard",
+    "in": 0,
+    "frames": 92,
+    "fx": {
+     "p": {
+      "touch": true
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "29": {
+  "vis": 335,
+  "black": 60,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 158.0,
+    "frames": 335,
+    "fx": {},
+    "src_len": 11.167
+   }
+  ],
+  "overlay": null
+ },
+ "30": {
+  "vis": 174,
+  "black": 30,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-collar-cam-b-roll-2014-2015-2",
+    "in": 3121.0,
+    "frames": 174,
+    "fx": {},
+    "src_len": 5.8
+   }
+  ],
+  "overlay": null
+ },
+ "31": {
+  "vis": 535,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:wrangel",
+    "in": 0,
+    "frames": 535,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "32": {
+  "vis": 371,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_6214018299001",
+    "in": 165.0,
+    "frames": 186,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 6.2
+   },
+   {
+    "src": "noaa_6214018299001",
+    "in": 200.0,
+    "frames": 185,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 6.167
+   }
+  ],
+  "overlay": null
+ },
+ "33": {
+  "vis": 449,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_04_wrangel_beach.jpg",
+    "in": 0,
+    "frames": 449,
+    "fx": {
+     "kb": [
+      [
+       0.5,
+       0.5,
+       1.0
+      ],
+      [
+       0.5,
+       0.48,
+       0.86
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "34": {
+  "vis": 373,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_pov-polar-bear-collar-cam-b-roll-2019-20",
+    "in": 76.0,
+    "frames": 373,
+    "fx": {
+     "box": [
+      0.0,
+      0.0,
+      0.72,
+      0.72
+     ]
+    },
+    "src_len": 12.433
+   }
+  ],
+  "overlay": null
+ },
+ "35": {
+  "vis": 133,
+  "black": 60,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 140.0,
+    "frames": 133,
+    "fx": {
+     "push": true
+    },
+    "src_len": 4.433
+   }
+  ],
+  "overlay": null
+ },
+ "36": {
+  "vis": 443,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_03_walrus_lunges.jpg",
+    "in": 0,
+    "frames": 443,
+    "fx": {
+     "kb": [
+      [
+       0.5,
+       0.5,
+       1.0
+      ],
+      [
+       0.5,
+       0.48,
+       0.86
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "37": {
+  "vis": 197,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_03_walrus_lunges.jpg",
+    "in": 0,
+    "frames": 197,
+    "fx": {
+     "kb": [
+      [
+       0.5,
+       0.42,
+       0.6
+      ],
+      [
+       0.48,
+       0.42,
+       0.5
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "38": {
+  "vis": 402,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:wound",
+    "in": 0,
+    "frames": 402,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "39": {
+  "vis": 235,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-collar-cam-b-roll-2014-2015-2",
+    "in": 208.0,
+    "frames": 235,
+    "fx": {},
+    "src_len": 7.833
+   }
+  ],
+  "overlay": null
+ },
+ "40": {
+  "vis": 321,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 45.0,
+    "frames": 321,
+    "fx": {},
+    "src_len": 10.7
+   }
+  ],
+  "overlay": null
+ },
+ "41": {
+  "vis": 316,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:adults",
+    "in": 0,
+    "frames": 316,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "42": {
+  "vis": 128,
+  "black": 60,
+  "shots": [
+   {
+    "src": "G:adults",
+    "in": 0,
+    "frames": 128,
+    "fx": {
+     "p": {
+      "t0": 6.0
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "43": {
+  "vis": 282,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_polar-bears-film-their-own-sea-ice-world",
+    "in": 49.0,
+    "frames": 282,
+    "fx": {},
+    "src_len": 9.4
+   }
+  ],
+  "overlay": null
+ },
+ "44": {
+  "vis": 236,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-pov-cams-spring-2016",
+    "in": 72.0,
+    "frames": 236,
+    "fx": {
+     "slow": 1.2
+    },
+    "src_len": 6.556
+   }
+  ],
+  "overlay": null
+ },
+ "45": {
+  "vis": 421,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_05_stampede.jpg",
+    "in": 0,
+    "frames": 421,
+    "fx": {
+     "kb": [
+      [
+       0.3,
+       0.6,
+       0.56
+      ],
+      [
+       0.27,
+       0.62,
+       0.48
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "46": {
+  "vis": 398,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 152.0,
+    "frames": 398,
+    "fx": {},
+    "src_len": 13.267
+   }
+  ],
+  "overlay": null
+ },
+ "47": {
+  "vis": 227,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_05_stampede.jpg",
+    "in": 0,
+    "frames": 227,
+    "fx": {
+     "kb": [
+      [
+       0.22,
+       0.66,
+       0.42
+      ],
+      [
+       0.3,
+       0.62,
+       0.5
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "48": {
+  "vis": 354,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:attempts",
+    "in": 0,
+    "frames": 354,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "49": {
+  "vis": 136,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_8061",
+    "in": 1.0,
+    "frames": 136,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 4.533
+   }
+  ],
+  "overlay": null
+ },
+ "50": {
+  "vis": 226,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:carcasses",
+    "in": 0,
+    "frames": 226,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "51": {
+  "vis": 216,
+  "black": 60,
+  "shots": [
+   {
+    "src": "mk_8148",
+    "in": 1.0,
+    "frames": 216,
+    "fx": {
+     "push": true,
+     "grade": "grey"
+    },
+    "src_len": 7.2
+   }
+  ],
+  "overlay": null
+ },
+ "52": {
+  "vis": 128,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_01_bear_ridge_ice.jpg",
+    "in": 0,
+    "frames": 128,
+    "fx": {
+     "kb": [
+      [
+       0.4,
+       0.5,
+       0.7
+      ],
+      [
+       0.45,
+       0.48,
+       0.6
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "53": {
+  "vis": 417,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:study",
+    "in": 0,
+    "frames": 417,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "54": {
+  "vis": 513,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_6214018299001",
+    "in": 45.0,
+    "frames": 256,
+    "fx": {},
+    "src_len": 8.533
+   },
+   {
+    "src": "mk_25244",
+    "in": 1.0,
+    "frames": 257,
+    "fx": {},
+    "src_len": 8.567
+   }
+  ],
+  "overlay": null
+ },
+ "55": {
+  "vis": 325,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_06_bear_lifts_ice.jpg",
+    "in": 0,
+    "frames": 325,
+    "fx": {
+     "kb": [
+      [
+       0.5,
+       0.5,
+       1.0
+      ],
+      [
+       0.5,
+       0.48,
+       0.86
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "56": {
+  "vis": 581,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:throwice",
+    "in": 0,
+    "frames": 581,
+    "fx": {
+     "p": {
+      "stone": true,
+      "kick": "THE TARGET",
+      "caption": "the head"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "57": {
+  "vis": 233,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:gogo",
+    "in": 0,
+    "frames": 233,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "58": {
+  "vis": 216,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:gogo",
+    "in": 0,
+    "frames": 216,
+    "fx": {
+     "p": {
+      "drop": true
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "59": {
+  "vis": 530,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:toolusers",
+    "in": 0,
+    "frames": 530,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "60": {
+  "vis": 412,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-collar-cam-b-roll-2014-2015-2",
+    "in": 2290.0,
+    "frames": 206,
+    "fx": {},
+    "src_len": 6.867
+   },
+   {
+    "src": "usgs_polar-bears-film-their-own-sea-ice-world",
+    "in": 136.0,
+    "frames": 206,
+    "fx": {},
+    "src_len": 6.867
+   }
+  ],
+  "overlay": null
+ },
+ "61": {
+  "vis": 277,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_6214018299001",
+    "in": 72.0,
+    "frames": 277,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 9.233
+   }
+  ],
+  "overlay": null
+ },
+ "62": {
+  "vis": 185,
+  "black": 60,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-collar-cam-b-roll-2014-2015-2",
+    "in": 2011.0,
+    "frames": 185,
+    "fx": {},
+    "src_len": 6.167
+   }
+  ],
+  "overlay": null
+ },
+ "63": {
+  "vis": 193,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_8091",
+    "in": 1.0,
+    "frames": 193,
+    "fx": {},
+    "src_len": 6.433
+   }
+  ],
+  "overlay": null
+ },
+ "64": {
+  "vis": 381,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_35659",
+    "in": 0,
+    "frames": 190,
+    "fx": {
+     "slow": 1.536
+    },
+    "src_len": 4.123
+   },
+   {
+    "src": "mk_8141",
+    "in": 6.0,
+    "frames": 191,
+    "fx": {
+     "grade": "cool"
+    },
+    "src_len": 6.367
+   }
+  ],
+  "overlay": null
+ },
+ "65": {
+  "vis": 328,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_07_whiskers_clams.jpg",
+    "in": 0,
+    "frames": 328,
+    "fx": {
+     "kb": [
+      [
+       0.5,
+       0.5,
+       1.0
+      ],
+      [
+       0.5,
+       0.48,
+       0.86
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "66": {
+  "vis": 303,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:tongue",
+    "in": 0,
+    "frames": 303,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "67": {
+  "vis": 181,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_07_whiskers_clams.jpg",
+    "in": 0,
+    "frames": 181,
+    "fx": {
+     "kb": [
+      [
+       0.75,
+       0.62,
+       0.6
+      ],
+      [
+       0.78,
+       0.64,
+       0.5
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "68": {
+  "vis": 413,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:clams",
+    "in": 0,
+    "frames": 413,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "69": {
+  "vis": 204,
+  "black": 30,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-collar-cam-b-roll-2014-2015-2",
+    "in": 2700.0,
+    "frames": 204,
+    "fx": {},
+    "src_len": 6.8
+   }
+  ],
+  "overlay": null
+ },
+ "70": {
+  "vis": 403,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_08_mother_calf.jpg",
+    "in": 0,
+    "frames": 403,
+    "fx": {
+     "kb": [
+      [
+       0.5,
+       0.5,
+       1.0
+      ],
+      [
+       0.5,
+       0.48,
+       0.86
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "71": {
+  "vis": 274,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_08_mother_calf.jpg",
+    "in": 0,
+    "frames": 274,
+    "fx": {
+     "kb": [
+      [
+       0.62,
+       0.55,
+       0.6
+      ],
+      [
+       0.62,
+       0.56,
+       0.5
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "72": {
+  "vis": 376,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 66.0,
+    "frames": 376,
+    "fx": {},
+    "src_len": 12.533
+   }
+  ],
+  "overlay": null
+ },
+ "73": {
+  "vis": 336,
+  "black": 60,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 30.0,
+    "frames": 336,
+    "fx": {},
+    "src_len": 11.2
+   }
+  ],
+  "overlay": null
+ },
+ "74": {
+  "vis": 282,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_8112",
+    "in": 1.0,
+    "frames": 282,
+    "fx": {},
+    "src_len": 9.4
+   }
+  ],
+  "overlay": null
+ },
+ "75": {
+  "vis": 353,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_1273",
+    "in": 1.0,
+    "frames": 176,
+    "fx": {
+     "grade": "cool"
+    },
+    "src_len": 5.867
+   },
+   {
+    "src": "mk_8091",
+    "in": 6.0,
+    "frames": 177,
+    "fx": {
+     "grade": "cool"
+    },
+    "src_len": 5.9
+   }
+  ],
+  "overlay": null
+ },
+ "76": {
+  "vis": 239,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_8063",
+    "in": 1.0,
+    "frames": 239,
+    "fx": {},
+    "src_len": 7.967
+   }
+  ],
+  "overlay": null
+ },
+ "77": {
+  "vis": 271,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 110.0,
+    "frames": 271,
+    "fx": {},
+    "src_len": 9.033
+   }
+  ],
+  "overlay": null
+ },
+ "78": {
+  "vis": 208,
+  "black": 30,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 92.0,
+    "frames": 208,
+    "fx": {},
+    "src_len": 6.933
+   }
+  ],
+  "overlay": null
+ },
+ "79": {
+  "vis": 139,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_48402",
+    "in": 10.0,
+    "frames": 139,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 4.633
+   }
+  ],
+  "overlay": null
+ },
+ "80": {
+  "vis": 352,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:iceedge",
+    "in": 0,
+    "frames": 352,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "81": {
+  "vis": 306,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:iceedge",
+    "in": 0,
+    "frames": 306,
+    "fx": {
+     "p": {
+      "t0": 6.0
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "82": {
+  "vis": 487,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_8128",
+    "in": 1.0,
+    "frames": 244,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 8.133
+   },
+   {
+    "src": "mk_48403",
+    "in": 1.0,
+    "frames": 243,
+    "fx": {},
+    "src_len": 8.1
+   }
+  ],
+  "overlay": null
+ },
+ "83": {
+  "vis": 306,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_7800",
+    "in": 1.0,
+    "frames": 306,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 10.2
+   }
+  ],
+  "overlay": null
+ },
+ "84": {
+  "vis": 247,
+  "black": 60,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 172.0,
+    "frames": 247,
+    "fx": {},
+    "src_len": 8.233
+   }
+  ],
+  "overlay": null
+ },
+ "85": {
+  "vis": 354,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:chukchi",
+    "in": 0,
+    "frames": 354,
+    "fx": {
+     "p": {
+      "focus": "Point Lay",
+      "title": "POINT LAY, ALASKA \u2014 ~35,000 WALRUSES"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "86": {
+  "vis": 187,
+  "black": 0,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_04_wrangel_beach.jpg",
+    "in": 0,
+    "frames": 187,
+    "fx": {
+     "kb": [
+      [
+       0.62,
+       0.5,
+       0.7
+      ],
+      [
+       0.58,
+       0.52,
+       0.6
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "87": {
+  "vis": 337,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:trampled",
+    "in": 0,
+    "frames": 337,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "88": {
+  "vis": 307,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 186.0,
+    "frames": 307,
+    "fx": {},
+    "src_len": 10.233
+   }
+  ],
+  "overlay": null
+ },
+ "89": {
+  "vis": 317,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_25245",
+    "in": 12.0,
+    "frames": 317,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 10.567
+   }
+  ],
+  "overlay": null
+ },
+ "90": {
+  "vis": 369,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_48402",
+    "in": 23.98,
+    "frames": 369,
+    "fx": {},
+    "src_len": 12.3
+   }
+  ],
+  "overlay": null
+ },
+ "91": {
+  "vis": 238,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_pov-polar-bear-collar-cam-b-roll-2019-20",
+    "in": 84.0,
+    "frames": 238,
+    "fx": {
+     "box": [
+      0.0,
+      0.0,
+      0.72,
+      0.72
+     ]
+    },
+    "src_len": 7.933
+   }
+  ],
+  "overlay": null
+ },
+ "92": {
+  "vis": 120,
+  "black": 60,
+  "shots": [
+   {
+    "src": "IMG:walrus_ai_06_bear_lifts_ice.jpg",
+    "in": 0,
+    "frames": 120,
+    "fx": {
+     "kb": [
+      [
+       0.35,
+       0.45,
+       0.7
+      ],
+      [
+       0.33,
+       0.42,
+       0.58
+      ]
+     ]
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "93": {
+  "vis": 191,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:population",
+    "in": 0,
+    "frames": 191,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "94": {
+  "vis": 147,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:iucn",
+    "in": 0,
+    "frames": 147,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "95": {
+  "vis": 366,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_tracking-pacific-walrus-trailer",
+    "in": 31.0,
+    "frames": 183,
+    "fx": {},
+    "src_len": 6.1
+   },
+   {
+    "src": "usgs_tracking-pacific-walrus-trailer",
+    "in": 48.0,
+    "frames": 183,
+    "fx": {},
+    "src_len": 6.1
+   }
+  ],
+  "overlay": null
+ },
+ "96": {
+  "vis": 471,
+  "black": 0,
+  "shots": [
+   {
+    "src": "mk_25244",
+    "in": 12.0,
+    "frames": 471,
+    "fx": {},
+    "src_len": 15.7
+   }
+  ],
+  "overlay": null
+ },
+ "97": {
+  "vis": 235,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_polar-bear-pov-cams-spring-2016",
+    "in": 80.0,
+    "frames": 235,
+    "fx": {},
+    "src_len": 7.833
+   }
+  ],
+  "overlay": null
+ },
+ "98": {
+  "vis": 102,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_tracking-pacific-walrus-trailer",
+    "in": 9.0,
+    "frames": 102,
+    "fx": {},
+    "src_len": 3.4
+   }
+  ],
+  "overlay": null
+ },
+ "99": {
+  "vis": 322,
+  "black": 0,
+  "shots": [
+   {
+    "src": "usgs_polar-bears-film-their-own-sea-ice-world",
+    "in": 140.0,
+    "frames": 107,
+    "fx": {},
+    "src_len": 3.567
+   },
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 50.0,
+    "frames": 107,
+    "fx": {},
+    "src_len": 3.567
+   },
+   {
+    "src": "mk_8148",
+    "in": 12.0,
+    "frames": 108,
+    "fx": {},
+    "src_len": 3.6
+   }
+  ],
+  "overlay": null
+ },
+ "100": {
+  "vis": 177,
+  "black": 90,
+  "shots": [
+   {
+    "src": "usgs_usgs-science-walrus-haul-out-2011",
+    "in": 125.0,
+    "frames": 177,
+    "fx": {
+     "push": true
+    },
+    "src_len": 5.9
+   }
+  ],
+  "overlay": null
+ },
+ "101": {
+  "vis": 558,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:endcard",
+    "in": 0,
+    "frames": 558,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ }
+}
