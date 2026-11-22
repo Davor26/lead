@@ -206,10 +206,6 @@ def render_beat(n):
         name, p, off = pl['overlay']
         extra += ['-itsoffset', str(off), '-i', str(GOUT/f'b{n:03d}_ov_{name}.mov')]
         fc += f"[base];[1:v]format=rgba,fade=t=out:st={vis/FPS - off - 0.6:.3f}:d=0.5:alpha=1[ov];[base][ov]overlay=0:0:eof_action=pass"
-    if n == 79:  # dissolve from the carved orca into the real one
-        extra += ['-ss', f'{EDL_SHOT_DUR(78):.4f}', '-i', str(GOUT/'b078_carving.mp4')]
-        idx = 2 if pl['overlay'] else 1
-        fc += f"[b0];[{idx}:v]format=rgba,fade=t=out:st=0:d=2.0:alpha=1,trim=duration=2.0[cv];[b0][cv]overlay=0:0:eof_action=pass"
     fd = 0.35
     if fade_in: fc += f',fade=t=in:st=0:d={fd}'
     if fade_out: fc += f',fade=t=out:st={vis/FPS - fd:.3f}:d={fd}'
