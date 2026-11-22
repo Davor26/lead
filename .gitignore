@@ -20,3 +20,4 @@ projects/*/artifacts/scenes/*.tmp
 projects/*/artifacts/story/
 projects/*/assets/music/mixkit/*.mp3
 projects/*/artifacts/octolab/
+projects/*/assets/ai/*.webp
