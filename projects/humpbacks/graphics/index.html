@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>html,body{margin:0;padding:0;background:transparent;width:1920px;height:1080px;overflow:hidden}</style>
+<script src="maps.js"></script><script src="lib.js"></script><script src="specs_base.js"></script><script src="specs_humpbacks.js"></script></head>
+<body><div id="s"></div>
+<script>window.R = (name, t, D, p) => { const g = G[name]; p = p || {}; if (p.t0) { t += p.t0; D += p.t0; } document.getElementById('s').innerHTML = svgWrap(g.render(t, D, p || {}), t); return !!g.alpha; };</script></body></html>
