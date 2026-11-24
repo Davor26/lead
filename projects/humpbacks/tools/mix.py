@@ -47,11 +47,11 @@ cards = {c['chapter_index']: c['start'] for c in TL['chapters'] if c['type'] == 
 cstart = lambda ci: cards[ci] if ci in cards else 0.0
 # chapter -> preferred tracks (first available wins); (track, offset seconds)
 # chapter -> track. Tense under the paradox and the record; warm for the grandmothers and Tahlequah.
-PLAN = {1: ['mx_188'], 2: ['mx_612'], 3: ['mx_184'], 4: ['mx_565'], 5: ['mx_188'], 6: ['mx_546'], 7: ['mx_565'], 8: ['mx_188'],
-        9: ['mx_682'], 10: ['mx_148'], 11: ['mx_683'], 12: ['mx_614'], 13: ['mx_546'], 14: ['mx_184']}
-OFFS = {('mx_188', 5): 60.0, ('mx_565', 7): 150.0, ('mx_188', 8): 140.0, ('mx_546', 13): 50.0, ('mx_184', 14): 90.0, ('mx_612', 2): 20.0}
+PLAN = {1: ['mx_188'], 2: ['mx_612'], 3: ['mx_565'], 4: ['mx_184'], 5: ['mx_188'], 6: ['mx_546'], 7: ['mx_682'], 8: ['mx_148'],
+        9: ['mx_565'], 10: ['mx_546'], 11: ['mx_683'], 12: ['mx_614'], 13: ['mx_612'], 14: ['mx_184']}
+OFFS = {('mx_188', 5): 60.0, ('mx_565', 9): 150.0, ('mx_546', 10): 50.0, ('mx_612', 13): 60.0, ('mx_184', 14): 90.0, ('mx_612', 2): 20.0}
 segs = []  # (track, offset, t_start, t_end, fade_in, fade_out)
-t_b5 = B[6]['speech_start'] - 0.15        # 'Because it makes no sense.' -> music stops
+t_b5 = B[7]['speech_start'] - 0.15        # 'Because it makes no sense.' -> music stops
 t_b7 = B[9]['visual_start']                # title card: music returns
 for ci in range(1, 15):
     tr = next((t for t in PLAN[ci] if t in have), None)

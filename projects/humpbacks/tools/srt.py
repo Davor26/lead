@@ -95,7 +95,7 @@ for i, c in enumerate(cues):
     nxt = cues[i + 1][0] - 0.05 if i + 1 < len(cues) else c[1] + 1.0
     c[1] = min(max(c[1], c[0] + 1.0), nxt, c[1] + 0.6) if c[1] < nxt else min(c[1], nxt)
 srt = ''.join(f'{i+1}\n{tc(a)} --> {tc(z)}\n{t}\n\n' for i, (a, z, t) in enumerate(cues))
-out = P.parents[1]/'output/walrus/why_polar_bears_throw_rocks_at_walruses.srt'
+out = P.parents[1]/'output/humpbacks/why_humpback_whales_save_other_animals_from_orcas.srt'
 out.write_text(srt, encoding='utf-8')
 # verify the subtitles carry the narration word for word
 words = lambda s: re.sub(r'\s+', ' ', s).strip()

@@ -10,7 +10,7 @@ voice = PiperVoice.load(str(P/'assets/voice/en_GB-cori-high.onnx'))
 SR = voice.config.sample_rate
 cfg = SynthesisConfig(length_scale=LS, noise_scale=0.6, noise_w_scale=0.8)
 # TTS-only pronunciation aids: the spoken words stay the same, only spelling for the phonemizer changes.
-SAY = {'Brancheau': 'Bran-shoh', 'Würsig': 'Werzig', 'J35': 'J thirty-five'}
+SAY = {'Schulman-Janiger': 'Shulman Janiger', 'Megaptera': 'Mega-ptera', "Bigg's": 'Biggs'}
 SENT_GAP = 0.45   # silence between sentences inside a beat
 BEAT_GAP = 0.8   # silence between beats (pauses from the shot plan are added on top)
 
