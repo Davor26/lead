@@ -1,0 +1,454 @@
+[
+ {
+  "name": "wash",
+  "dur": 11.9333,
+  "params": {
+   "stage": 1
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b001_wash.mp4"
+ },
+ {
+  "name": "wash",
+  "dur": 11.8667,
+  "params": {
+   "stage": 2
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b002_wash.mp4"
+ },
+ {
+  "name": "wash",
+  "dur": 5.4,
+  "params": {
+   "stage": 3
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b003_wash.mp4"
+ },
+ {
+  "name": "chest",
+  "dur": 11.2667,
+  "params": {
+   "stage": 1
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b004_chest.mp4"
+ },
+ {
+  "name": "chest",
+  "dur": 11.6333,
+  "params": {
+   "stage": 2
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b005_chest.mp4"
+ },
+ {
+  "name": "htitle",
+  "dur": 3.0333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b009_ov_htitle.mov"
+ },
+ {
+  "name": "hsize",
+  "dur": 10.7,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b011_hsize.mp4"
+ },
+ {
+  "name": "flipper",
+  "dur": 14.5,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b012_flipper.mp4"
+ },
+ {
+  "name": "echo",
+  "dur": 11.1667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b022_echo.mp4"
+ },
+ {
+  "name": "npac",
+  "dur": 10.9333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b026_npac.mp4"
+ },
+ {
+  "name": "types",
+  "dur": 10.3667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b029_types.mp4"
+ },
+ {
+  "name": "converge",
+  "dur": 7.9667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b031_converge.mp4"
+ },
+ {
+  "name": "card",
+  "dur": 10.7667,
+  "params": {
+   "kick": "ROBERT PITMAN & JOHN DURBAN",
+   "big": "ANTARCTIC PENINSULA",
+   "small": "2009",
+   "size": 110
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b032_card.mp4"
+ },
+ {
+  "name": "wash",
+  "dur": 8.4667,
+  "params": {
+   "stage": 1,
+   "v": 2
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b033_wash.mp4"
+ },
+ {
+  "name": "antpen",
+  "dur": 11.9,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b034_antpen.mp4"
+ },
+ {
+  "name": "converge",
+  "dur": 10.0667,
+  "params": {
+   "n": 2,
+   "kick": "TWO HUMPBACKS STEP IN"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b035_converge.mp4"
+ },
+ {
+  "name": "chest",
+  "dur": 10.4,
+  "params": {
+   "stage": 3,
+   "wide": true
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b036_chest.mp4"
+ },
+ {
+  "name": "monterey",
+  "dur": 6.2,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b039_monterey.mp4"
+ },
+ {
+  "name": "monterey",
+  "dur": 9.8667,
+  "params": {
+   "canyon": true
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b041_monterey.mp4"
+ },
+ {
+  "name": "mob",
+  "dur": 7.9667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b044_mob.mp4"
+ },
+ {
+  "name": "reports",
+  "dur": 9.5667,
+  "params": {
+   "mode": "fill"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b049_reports.mp4"
+ },
+ {
+  "name": "card",
+  "dur": 11.7667,
+  "params": {
+   "kick": "PITMAN ET AL. \u00b7 MARINE MAMMAL SCIENCE \u00b7 2017",
+   "big": "115 ENCOUNTERS",
+   "small": "humpbacks and killer whales"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b050_card.mp4"
+ },
+ {
+  "name": "approach",
+  "dur": 6.8667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b051_approach.mp4"
+ },
+ {
+  "name": "bars",
+  "dur": 12.0333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b052_bars.mp4"
+ },
+ {
+  "name": "reports",
+  "dur": 11.3333,
+  "params": {
+   "mode": "oceans"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b054_reports.mp4"
+ },
+ {
+  "name": "ninety",
+  "dur": 6.9667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b057_ninety.mp4"
+ },
+ {
+  "name": "prey",
+  "dur": 8.5,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b060_prey.mp4"
+ },
+ {
+  "name": "rake",
+  "dur": 8.3333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b063_rake.mp4"
+ },
+ {
+  "name": "card",
+  "dur": 6.8667,
+  "params": {
+   "kick": "ADULTS WITH RAKE MARKS",
+   "big": "UP TO 1 IN 3",
+   "small": "in some populations",
+   "color": "#f2b866"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b064_card.mp4"
+ },
+ {
+  "name": "shield",
+  "dur": 11.4333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b066_shield.mp4"
+ },
+ {
+  "name": "wa",
+  "dur": 9.7667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b067_wa.mp4"
+ },
+ {
+  "name": "swing",
+  "dur": 11.6667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b072_swing.mp4"
+ },
+ {
+  "name": "calls",
+  "dur": 9.3333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b074_calls.mp4"
+ },
+ {
+  "name": "escort",
+  "dur": 11.2333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b076_escort.mp4"
+ },
+ {
+  "name": "silent",
+  "dur": 9.6,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b080_silent.mp4"
+ },
+ {
+  "name": "decide",
+  "dur": 15.8333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b082_decide.mp4"
+ },
+ {
+  "name": "chest",
+  "dur": 14.9,
+  "params": {
+   "stage": 1,
+   "wide": true
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b086_chest.mp4"
+ },
+ {
+  "name": "song",
+  "dur": 11.2667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b087_song.mp4"
+ },
+ {
+  "name": "card",
+  "dur": 14.4,
+  "params": {
+   "kick": "ROBERT PITMAN (PARAPHRASED)",
+   "big": "COMPASSION?",
+   "small": "when humans protect another species, we call it compassion"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b089_card.mp4"
+ },
+ {
+  "name": "card",
+  "dur": 10.2667,
+  "params": {
+   "kick": "THE 20TH CENTURY",
+   "big": "COMMERCIAL WHALING",
+   "color": "#e2583e"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b091_card.mp4"
+ },
+ {
+  "name": "popcurve",
+  "dur": 10.6,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b092_popcurve.mp4"
+ },
+ {
+  "name": "card",
+  "dur": 9.0,
+  "params": {
+   "kick": "A TURNING POINT",
+   "big": "1966",
+   "small": "humpbacks protected worldwide",
+   "size": 160
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b093_card.mp4"
+ },
+ {
+  "name": "popcurve",
+  "dur": 9.2667,
+  "params": {
+   "rise": true
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b094_popcurve.mp4"
+ },
+ {
+  "name": "photoid",
+  "dur": 10.4667,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b095_photoid.mp4"
+ },
+ {
+  "name": "reports",
+  "dur": 15.3,
+  "params": {
+   "mode": "new"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b097_reports.mp4"
+ },
+ {
+  "name": "endcard",
+  "dur": 20.2333,
+  "params": {},
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/b105_endcard.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 2",
+   "title": "The giant with wings"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_02.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 3",
+   "title": "The wolves of the sea"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_03.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 4",
+   "title": "Two kinds of hunters"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_04.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 5",
+   "title": "Antarctica, 2009"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_05.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 6",
+   "title": "Monterey Bay, 2012"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_06.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 7",
+   "title": "One hundred and fifteen encounters"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_07.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 8",
+   "title": "Who gets saved"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_08.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 9",
+   "title": "Scars on the tail"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_09.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 10",
+   "title": "How a humpback fights"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_10.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 11",
+   "title": "Why do they do it?"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_11.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 12",
+   "title": "Kindness or instinct?"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_12.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 13",
+   "title": "The return of the giants"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_13.mp4"
+ },
+ {
+  "name": "chapter",
+  "dur": 4.5,
+  "params": {
+   "kicker": "CHAPTER 14",
+   "title": "Conclusion"
+  },
+  "out": "/home/user/lead/projects/humpbacks/graphics/out/card_14.mp4"
+ }
+]

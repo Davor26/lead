@@ -1,0 +1,853 @@
+{
+ "length_scale": 1.32,
+ "sample_rate": 22050,
+ "beat_gap": 0.8,
+ "sentence_gap": 0.45,
+ "tts_pronunciation_aids": {
+  "Schulman-Janiger": "Shulman Janiger",
+  "Megaptera": "Mega-ptera",
+  "Bigg's": "Biggs"
+ },
+ "beats": [
+  {
+   "beat": 1,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 0.0,
+   "speech_dur": 10.118,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 2,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 10.918,
+   "speech_dur": 11.073,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 3,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 22.791,
+   "speech_dur": 4.606,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 4,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 29.198,
+   "speech_dur": 10.458,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 5,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 40.456,
+   "speech_dur": 10.853,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 6,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 52.108,
+   "speech_dur": 6.754,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 7,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 59.662,
+   "speech_dur": 1.846,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 8,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 64.308,
+   "speech_dur": 12.22,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 9,
+   "chapter": "1 \u2014 The rescue",
+   "chapter_index": 1,
+   "start_in_chapter": 77.328,
+   "speech_dur": 2.334,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 10,
+   "chapter": "2 \u2014 The giant with wings",
+   "chapter_index": 2,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.097,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 11,
+   "chapter": "2 \u2014 The giant with wings",
+   "chapter_index": 2,
+   "start_in_chapter": 5.897,
+   "speech_dur": 9.912,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 12,
+   "chapter": "2 \u2014 The giant with wings",
+   "chapter_index": 2,
+   "start_in_chapter": 16.609,
+   "speech_dur": 13.706,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 13,
+   "chapter": "2 \u2014 The giant with wings",
+   "chapter_index": 2,
+   "start_in_chapter": 31.115,
+   "speech_dur": 9.007,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 14,
+   "chapter": "2 \u2014 The giant with wings",
+   "chapter_index": 2,
+   "start_in_chapter": 40.921,
+   "speech_dur": 9.239,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 15,
+   "chapter": "2 \u2014 The giant with wings",
+   "chapter_index": 2,
+   "start_in_chapter": 50.96,
+   "speech_dur": 10.4,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 16,
+   "chapter": "2 \u2014 The giant with wings",
+   "chapter_index": 2,
+   "start_in_chapter": 62.16,
+   "speech_dur": 10.168,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 17,
+   "chapter": "2 \u2014 The giant with wings",
+   "chapter_index": 2,
+   "start_in_chapter": 73.127,
+   "speech_dur": 5.941,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 18,
+   "chapter": "3 \u2014 The wolves of the sea",
+   "chapter_index": 3,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.48,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 19,
+   "chapter": "3 \u2014 The wolves of the sea",
+   "chapter_index": 3,
+   "start_in_chapter": 6.28,
+   "speech_dur": 11.596,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 20,
+   "chapter": "3 \u2014 The wolves of the sea",
+   "chapter_index": 3,
+   "start_in_chapter": 18.675,
+   "speech_dur": 8.763,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 21,
+   "chapter": "3 \u2014 The wolves of the sea",
+   "chapter_index": 3,
+   "start_in_chapter": 28.238,
+   "speech_dur": 6.362,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 22,
+   "chapter": "3 \u2014 The wolves of the sea",
+   "chapter_index": 3,
+   "start_in_chapter": 35.4,
+   "speech_dur": 10.356,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 23,
+   "chapter": "3 \u2014 The wolves of the sea",
+   "chapter_index": 3,
+   "start_in_chapter": 46.557,
+   "speech_dur": 10.911,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 24,
+   "chapter": "3 \u2014 The wolves of the sea",
+   "chapter_index": 3,
+   "start_in_chapter": 58.267,
+   "speech_dur": 5.396,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 25,
+   "chapter": "3 \u2014 The wolves of the sea",
+   "chapter_index": 3,
+   "start_in_chapter": 64.463,
+   "speech_dur": 5.953,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 26,
+   "chapter": "4 \u2014 Two kinds of hunters",
+   "chapter_index": 4,
+   "start_in_chapter": 0.0,
+   "speech_dur": 10.109,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 27,
+   "chapter": "4 \u2014 Two kinds of hunters",
+   "chapter_index": 4,
+   "start_in_chapter": 10.909,
+   "speech_dur": 8.658,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 28,
+   "chapter": "4 \u2014 Two kinds of hunters",
+   "chapter_index": 4,
+   "start_in_chapter": 20.368,
+   "speech_dur": 11.723,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 29,
+   "chapter": "4 \u2014 Two kinds of hunters",
+   "chapter_index": 4,
+   "start_in_chapter": 32.891,
+   "speech_dur": 9.575,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 30,
+   "chapter": "4 \u2014 Two kinds of hunters",
+   "chapter_index": 4,
+   "start_in_chapter": 43.266,
+   "speech_dur": 8.449,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 31,
+   "chapter": "4 \u2014 Two kinds of hunters",
+   "chapter_index": 4,
+   "start_in_chapter": 52.516,
+   "speech_dur": 7.187,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 32,
+   "chapter": "5 \u2014 Antarctica, 2009",
+   "chapter_index": 5,
+   "start_in_chapter": 0.0,
+   "speech_dur": 9.947,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 33,
+   "chapter": "5 \u2014 Antarctica, 2009",
+   "chapter_index": 5,
+   "start_in_chapter": 10.747,
+   "speech_dur": 16.155,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 34,
+   "chapter": "5 \u2014 Antarctica, 2009",
+   "chapter_index": 5,
+   "start_in_chapter": 27.702,
+   "speech_dur": 11.096,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 35,
+   "chapter": "5 \u2014 Antarctica, 2009",
+   "chapter_index": 5,
+   "start_in_chapter": 39.599,
+   "speech_dur": 9.25,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 36,
+   "chapter": "5 \u2014 Antarctica, 2009",
+   "chapter_index": 5,
+   "start_in_chapter": 49.649,
+   "speech_dur": 9.59,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 37,
+   "chapter": "5 \u2014 Antarctica, 2009",
+   "chapter_index": 5,
+   "start_in_chapter": 60.039,
+   "speech_dur": 8.414,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 38,
+   "chapter": "5 \u2014 Antarctica, 2009",
+   "chapter_index": 5,
+   "start_in_chapter": 69.253,
+   "speech_dur": 10.409,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 39,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.387,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 40,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 6.187,
+   "speech_dur": 10.484,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 41,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 17.471,
+   "speech_dur": 9.041,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 42,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 27.312,
+   "speech_dur": 10.008,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 43,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 38.12,
+   "speech_dur": 4.455,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 44,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 43.375,
+   "speech_dur": 7.195,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 45,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 51.371,
+   "speech_dur": 10.539,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 46,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 62.71,
+   "speech_dur": 7.253,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 47,
+   "chapter": "6 \u2014 Monterey Bay, 2012",
+   "chapter_index": 6,
+   "start_in_chapter": 70.763,
+   "speech_dur": 10.757,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 48,
+   "chapter": "7 \u2014 One hundred and fifteen encounters",
+   "chapter_index": 7,
+   "start_in_chapter": 0.0,
+   "speech_dur": 7.288,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 49,
+   "chapter": "7 \u2014 One hundred and fifteen encounters",
+   "chapter_index": 7,
+   "start_in_chapter": 8.088,
+   "speech_dur": 8.798,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 50,
+   "chapter": "7 \u2014 One hundred and fifteen encounters",
+   "chapter_index": 7,
+   "start_in_chapter": 17.686,
+   "speech_dur": 10.957,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 51,
+   "chapter": "7 \u2014 One hundred and fifteen encounters",
+   "chapter_index": 7,
+   "start_in_chapter": 29.443,
+   "speech_dur": 6.072,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 52,
+   "chapter": "7 \u2014 One hundred and fifteen encounters",
+   "chapter_index": 7,
+   "start_in_chapter": 36.315,
+   "speech_dur": 11.21,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 53,
+   "chapter": "7 \u2014 One hundred and fifteen encounters",
+   "chapter_index": 7,
+   "start_in_chapter": 48.324,
+   "speech_dur": 5.373,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 54,
+   "chapter": "8 \u2014 Who gets saved",
+   "chapter_index": 8,
+   "start_in_chapter": 0.0,
+   "speech_dur": 10.53,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 55,
+   "chapter": "8 \u2014 Who gets saved",
+   "chapter_index": 8,
+   "start_in_chapter": 11.33,
+   "speech_dur": 7.59,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 56,
+   "chapter": "8 \u2014 Who gets saved",
+   "chapter_index": 8,
+   "start_in_chapter": 19.72,
+   "speech_dur": 5.21,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 57,
+   "chapter": "8 \u2014 Who gets saved",
+   "chapter_index": 8,
+   "start_in_chapter": 25.73,
+   "speech_dur": 6.188,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 58,
+   "chapter": "8 \u2014 Who gets saved",
+   "chapter_index": 8,
+   "start_in_chapter": 32.719,
+   "speech_dur": 1.312,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 59,
+   "chapter": "8 \u2014 Who gets saved",
+   "chapter_index": 8,
+   "start_in_chapter": 34.83,
+   "speech_dur": 2.264,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 60,
+   "chapter": "8 \u2014 Who gets saved",
+   "chapter_index": 8,
+   "start_in_chapter": 37.894,
+   "speech_dur": 7.709,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 61,
+   "chapter": "8 \u2014 Who gets saved",
+   "chapter_index": 8,
+   "start_in_chapter": 46.403,
+   "speech_dur": 11.837,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 62,
+   "chapter": "9 \u2014 Scars on the tail",
+   "chapter_index": 9,
+   "start_in_chapter": 0.0,
+   "speech_dur": 5.503,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 63,
+   "chapter": "9 \u2014 Scars on the tail",
+   "chapter_index": 9,
+   "start_in_chapter": 6.303,
+   "speech_dur": 7.544,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 64,
+   "chapter": "9 \u2014 Scars on the tail",
+   "chapter_index": 9,
+   "start_in_chapter": 14.647,
+   "speech_dur": 6.049,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 65,
+   "chapter": "9 \u2014 Scars on the tail",
+   "chapter_index": 9,
+   "start_in_chapter": 21.496,
+   "speech_dur": 6.78,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 66,
+   "chapter": "9 \u2014 Scars on the tail",
+   "chapter_index": 9,
+   "start_in_chapter": 29.076,
+   "speech_dur": 10.62,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 67,
+   "chapter": "9 \u2014 Scars on the tail",
+   "chapter_index": 9,
+   "start_in_chapter": 40.496,
+   "speech_dur": 8.963,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 68,
+   "chapter": "9 \u2014 Scars on the tail",
+   "chapter_index": 9,
+   "start_in_chapter": 50.259,
+   "speech_dur": 10.008,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 69,
+   "chapter": "9 \u2014 Scars on the tail",
+   "chapter_index": 9,
+   "start_in_chapter": 61.067,
+   "speech_dur": 10.318,
+   "pause_after": 1.0
+  },
+  {
+   "beat": 70,
+   "chapter": "10 \u2014 How a humpback fights",
+   "chapter_index": 10,
+   "start_in_chapter": 0.0,
+   "speech_dur": 7.564,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 71,
+   "chapter": "10 \u2014 How a humpback fights",
+   "chapter_index": 10,
+   "start_in_chapter": 8.364,
+   "speech_dur": 5.468,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 72,
+   "chapter": "10 \u2014 How a humpback fights",
+   "chapter_index": 10,
+   "start_in_chapter": 14.632,
+   "speech_dur": 10.876,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 73,
+   "chapter": "10 \u2014 How a humpback fights",
+   "chapter_index": 10,
+   "start_in_chapter": 26.308,
+   "speech_dur": 7.579,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 74,
+   "chapter": "10 \u2014 How a humpback fights",
+   "chapter_index": 10,
+   "start_in_chapter": 34.687,
+   "speech_dur": 8.542,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 75,
+   "chapter": "10 \u2014 How a humpback fights",
+   "chapter_index": 10,
+   "start_in_chapter": 44.029,
+   "speech_dur": 7.892,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 76,
+   "chapter": "10 \u2014 How a humpback fights",
+   "chapter_index": 10,
+   "start_in_chapter": 52.721,
+   "speech_dur": 10.423,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 77,
+   "chapter": "10 \u2014 How a humpback fights",
+   "chapter_index": 10,
+   "start_in_chapter": 63.944,
+   "speech_dur": 10.107,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 78,
+   "chapter": "11 \u2014 Why do they do it?",
+   "chapter_index": 11,
+   "start_in_chapter": 0.0,
+   "speech_dur": 6.232,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 79,
+   "chapter": "11 \u2014 Why do they do it?",
+   "chapter_index": 11,
+   "start_in_chapter": 7.032,
+   "speech_dur": 11.154,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 80,
+   "chapter": "11 \u2014 Why do they do it?",
+   "chapter_index": 11,
+   "start_in_chapter": 18.986,
+   "speech_dur": 8.818,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 81,
+   "chapter": "11 \u2014 Why do they do it?",
+   "chapter_index": 11,
+   "start_in_chapter": 28.604,
+   "speech_dur": 9.398,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 82,
+   "chapter": "11 \u2014 Why do they do it?",
+   "chapter_index": 11,
+   "start_in_chapter": 38.803,
+   "speech_dur": 15.029,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 83,
+   "chapter": "11 \u2014 Why do they do it?",
+   "chapter_index": 11,
+   "start_in_chapter": 54.632,
+   "speech_dur": 10.687,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 84,
+   "chapter": "12 \u2014 Kindness or instinct?",
+   "chapter_index": 12,
+   "start_in_chapter": 0.0,
+   "speech_dur": 3.529,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 85,
+   "chapter": "12 \u2014 Kindness or instinct?",
+   "chapter_index": 12,
+   "start_in_chapter": 4.329,
+   "speech_dur": 13.892,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 86,
+   "chapter": "12 \u2014 Kindness or instinct?",
+   "chapter_index": 12,
+   "start_in_chapter": 19.021,
+   "speech_dur": 14.08,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 87,
+   "chapter": "12 \u2014 Kindness or instinct?",
+   "chapter_index": 12,
+   "start_in_chapter": 33.901,
+   "speech_dur": 10.493,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 88,
+   "chapter": "12 \u2014 Kindness or instinct?",
+   "chapter_index": 12,
+   "start_in_chapter": 45.194,
+   "speech_dur": 6.966,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 89,
+   "chapter": "12 \u2014 Kindness or instinct?",
+   "chapter_index": 12,
+   "start_in_chapter": 52.96,
+   "speech_dur": 13.578,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 90,
+   "chapter": "12 \u2014 Kindness or instinct?",
+   "chapter_index": 12,
+   "start_in_chapter": 67.338,
+   "speech_dur": 10.992,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 91,
+   "chapter": "13 \u2014 The return of the giants",
+   "chapter_index": 13,
+   "start_in_chapter": 0.0,
+   "speech_dur": 9.471,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 92,
+   "chapter": "13 \u2014 The return of the giants",
+   "chapter_index": 13,
+   "start_in_chapter": 10.271,
+   "speech_dur": 9.808,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 93,
+   "chapter": "13 \u2014 The return of the giants",
+   "chapter_index": 13,
+   "start_in_chapter": 20.879,
+   "speech_dur": 8.217,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 94,
+   "chapter": "13 \u2014 The return of the giants",
+   "chapter_index": 13,
+   "start_in_chapter": 29.896,
+   "speech_dur": 8.452,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 95,
+   "chapter": "13 \u2014 The return of the giants",
+   "chapter_index": 13,
+   "start_in_chapter": 39.148,
+   "speech_dur": 9.66,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 96,
+   "chapter": "13 \u2014 The return of the giants",
+   "chapter_index": 13,
+   "start_in_chapter": 49.607,
+   "speech_dur": 6.211,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 97,
+   "chapter": "13 \u2014 The return of the giants",
+   "chapter_index": 13,
+   "start_in_chapter": 56.619,
+   "speech_dur": 14.498,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 98,
+   "chapter": "13 \u2014 The return of the giants",
+   "chapter_index": 13,
+   "start_in_chapter": 71.917,
+   "speech_dur": 8.856,
+   "pause_after": 2.0
+  },
+  {
+   "beat": 99,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 0.0,
+   "speech_dur": 6.594,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 100,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 7.394,
+   "speech_dur": 2.635,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 101,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 10.83,
+   "speech_dur": 11.5,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 102,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 23.13,
+   "speech_dur": 12.55,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 103,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 36.48,
+   "speech_dur": 11.128,
+   "pause_after": 0.0
+  },
+  {
+   "beat": 104,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 48.409,
+   "speech_dur": 8.127,
+   "pause_after": 3.0
+  },
+  {
+   "beat": 105,
+   "chapter": "14 \u2014 Conclusion",
+   "chapter_index": 14,
+   "start_in_chapter": 60.336,
+   "speech_dur": 11.224,
+   "pause_after": 0.0
+  }
+ ]
+}

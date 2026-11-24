@@ -1,0 +1,1581 @@
+{
+ "1": {
+  "vis": 358,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:wash",
+    "in": 0,
+    "frames": 358,
+    "fx": {
+     "p": {
+      "stage": 1
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "2": {
+  "vis": 356,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:wash",
+    "in": 0,
+    "frames": 356,
+    "fx": {
+     "p": {
+      "stage": 2
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "3": {
+  "vis": 162,
+  "black": 30,
+  "shots": [
+   {
+    "src": "G:wash",
+    "in": 0,
+    "frames": 162,
+    "fx": {
+     "p": {
+      "stage": 3
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "4": {
+  "vis": 338,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:chest",
+    "in": 0,
+    "frames": 338,
+    "fx": {
+     "p": {
+      "stage": 1
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "5": {
+  "vis": 349,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:chest",
+    "in": 0,
+    "frames": 349,
+    "fx": {
+     "p": {
+      "stage": 2
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "6": {
+  "vis": 227,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_2221891724001",
+    "in": 72.0,
+    "frames": 227,
+    "fx": {},
+    "src_len": 7.567
+   }
+  ],
+  "overlay": null
+ },
+ "7": {
+  "vis": 79,
+  "black": 60,
+  "shots": [
+   {
+    "src": "BLACK",
+    "in": 0,
+    "frames": 79,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "8": {
+  "vis": 391,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 10.0,
+    "frames": 196,
+    "fx": {},
+    "src_len": 6.533
+   },
+   {
+    "src": "noaa_3911325489001",
+    "in": 40.0,
+    "frames": 195,
+    "fx": {},
+    "src_len": 6.5
+   }
+  ],
+  "overlay": null
+ },
+ "9": {
+  "vis": 94,
+  "black": 60,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 60.0,
+    "frames": 94,
+    "fx": {
+     "grade": "dark"
+    },
+    "src_len": 3.133
+   }
+  ],
+  "overlay": [
+   "htitle",
+   {},
+   0.1
+  ]
+ },
+ "10": {
+  "vis": 177,
+  "black": 0,
+  "shots": [
+   {
+    "src": "wm_h1",
+    "in": 2.0,
+    "frames": 177,
+    "fx": {},
+    "src_len": 5.9
+   }
+  ],
+  "overlay": null
+ },
+ "11": {
+  "vis": 321,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:hsize",
+    "in": 0,
+    "frames": 321,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "12": {
+  "vis": 435,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:flipper",
+    "in": 0,
+    "frames": 435,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "13": {
+  "vis": 294,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 182.0,
+    "frames": 294,
+    "fx": {},
+    "src_len": 9.8
+   }
+  ],
+  "overlay": null
+ },
+ "14": {
+  "vis": 302,
+  "black": 0,
+  "shots": [
+   {
+    "src": "wm_h2",
+    "in": 2.0,
+    "frames": 302,
+    "fx": {
+     "zoom": 1.1
+    },
+    "src_len": 10.067
+   }
+  ],
+  "overlay": null
+ },
+ "15": {
+  "vis": 336,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1105831255001",
+    "in": 32.0,
+    "frames": 336,
+    "fx": {},
+    "src_len": 11.2
+   }
+  ],
+  "overlay": null
+ },
+ "16": {
+  "vis": 329,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 86.0,
+    "frames": 329,
+    "fx": {},
+    "src_len": 10.967
+   }
+  ],
+  "overlay": null
+ },
+ "17": {
+  "vis": 202,
+  "black": 30,
+  "shots": [
+   {
+    "src": "wm_28",
+    "in": 52.0,
+    "frames": 202,
+    "fx": {},
+    "src_len": 6.733
+   }
+  ],
+  "overlay": null
+ },
+ "18": {
+  "vis": 188,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3629965805001",
+    "in": 50.0,
+    "frames": 188,
+    "fx": {},
+    "src_len": 6.267
+   }
+  ],
+  "overlay": null
+ },
+ "19": {
+  "vis": 372,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4569239085001",
+    "in": 168.0,
+    "frames": 372,
+    "fx": {},
+    "src_len": 12.4
+   }
+  ],
+  "overlay": null
+ },
+ "20": {
+  "vis": 287,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4264909079001",
+    "in": 12.0,
+    "frames": 287,
+    "fx": {},
+    "src_len": 9.567
+   }
+  ],
+  "overlay": null
+ },
+ "21": {
+  "vis": 215,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3629965805001",
+    "in": 100.0,
+    "frames": 215,
+    "fx": {},
+    "src_len": 7.167
+   }
+  ],
+  "overlay": null
+ },
+ "22": {
+  "vis": 335,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:echo",
+    "in": 0,
+    "frames": 335,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "23": {
+  "vis": 351,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_5998935565001",
+    "in": 39.0,
+    "frames": 351,
+    "fx": {},
+    "src_len": 11.7
+   }
+  ],
+  "overlay": null
+ },
+ "24": {
+  "vis": 186,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1092315332001",
+    "in": 24.0,
+    "frames": 186,
+    "fx": {},
+    "src_len": 6.2
+   }
+  ],
+  "overlay": null
+ },
+ "25": {
+  "vis": 202,
+  "black": 60,
+  "shots": [
+   {
+    "src": "wm_00",
+    "in": 7.5,
+    "frames": 202,
+    "fx": {},
+    "src_len": 6.733
+   }
+  ],
+  "overlay": null
+ },
+ "26": {
+  "vis": 328,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:npac",
+    "in": 0,
+    "frames": 328,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "27": {
+  "vis": 283,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3629965805001",
+    "in": 60.0,
+    "frames": 283,
+    "fx": {},
+    "src_len": 9.433
+   }
+  ],
+  "overlay": null
+ },
+ "28": {
+  "vis": 376,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1092315332001",
+    "in": 130.0,
+    "frames": 376,
+    "fx": {},
+    "src_len": 12.533
+   }
+  ],
+  "overlay": null
+ },
+ "29": {
+  "vis": 311,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:types",
+    "in": 0,
+    "frames": 311,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "30": {
+  "vis": 278,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1105831255001",
+    "in": 140.0,
+    "frames": 278,
+    "fx": {},
+    "src_len": 9.267
+   }
+  ],
+  "overlay": null
+ },
+ "31": {
+  "vis": 239,
+  "black": 30,
+  "shots": [
+   {
+    "src": "G:converge",
+    "in": 0,
+    "frames": 239,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "32": {
+  "vis": 323,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:card",
+    "in": 0,
+    "frames": 323,
+    "fx": {
+     "p": {
+      "kick": "ROBERT PITMAN & JOHN DURBAN",
+      "big": "ANTARCTIC PENINSULA",
+      "small": "2009",
+      "size": 110
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "33": {
+  "vis": 508,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_6214018299001",
+    "in": 60.0,
+    "frames": 254,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 8.467
+   },
+   {
+    "src": "G:wash",
+    "in": 0,
+    "frames": 254,
+    "fx": {
+     "p": {
+      "stage": 1,
+      "v": 2
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "34": {
+  "vis": 357,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:antpen",
+    "in": 0,
+    "frames": 357,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "35": {
+  "vis": 302,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:converge",
+    "in": 0,
+    "frames": 302,
+    "fx": {
+     "p": {
+      "n": 2,
+      "kick": "TWO HUMPBACKS STEP IN"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "36": {
+  "vis": 312,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:chest",
+    "in": 0,
+    "frames": 312,
+    "fx": {
+     "p": {
+      "stage": 3,
+      "wide": true
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "37": {
+  "vis": 276,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 240.0,
+    "frames": 276,
+    "fx": {},
+    "src_len": 9.2
+   }
+  ],
+  "overlay": null
+ },
+ "38": {
+  "vis": 336,
+  "black": 60,
+  "shots": [
+   {
+    "src": "noaa_2221891724001",
+    "in": 10.0,
+    "frames": 336,
+    "fx": {},
+    "src_len": 11.2
+   }
+  ],
+  "overlay": null
+ },
+ "39": {
+  "vis": 186,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:monterey",
+    "in": 0,
+    "frames": 186,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "40": {
+  "vis": 338,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4263168665001",
+    "in": 10.0,
+    "frames": 338,
+    "fx": {},
+    "src_len": 11.267
+   }
+  ],
+  "overlay": null
+ },
+ "41": {
+  "vis": 296,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:monterey",
+    "in": 0,
+    "frames": 296,
+    "fx": {
+     "p": {
+      "canyon": true
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "42": {
+  "vis": 324,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4263168665001",
+    "in": 30.0,
+    "frames": 324,
+    "fx": {},
+    "src_len": 10.8
+   }
+  ],
+  "overlay": null
+ },
+ "43": {
+  "vis": 158,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4263168665001",
+    "in": 200.0,
+    "frames": 158,
+    "fx": {
+     "grade": "grey"
+    },
+    "src_len": 5.267
+   }
+  ],
+  "overlay": null
+ },
+ "44": {
+  "vis": 239,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:mob",
+    "in": 0,
+    "frames": 239,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "45": {
+  "vis": 341,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1105831255001",
+    "in": 95.0,
+    "frames": 341,
+    "fx": {},
+    "src_len": 11.367
+   }
+  ],
+  "overlay": null
+ },
+ "46": {
+  "vis": 241,
+  "black": 0,
+  "shots": [
+   {
+    "src": "wm_h1",
+    "in": 10.0,
+    "frames": 241,
+    "fx": {},
+    "src_len": 8.033
+   }
+  ],
+  "overlay": null
+ },
+ "47": {
+  "vis": 347,
+  "black": 60,
+  "shots": [
+   {
+    "src": "noaa_1105831255001",
+    "in": 290.0,
+    "frames": 347,
+    "fx": {
+     "push": true
+    },
+    "src_len": 11.567
+   }
+  ],
+  "overlay": null
+ },
+ "48": {
+  "vis": 243,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_2221891724001",
+    "in": 95.0,
+    "frames": 243,
+    "fx": {},
+    "src_len": 8.1
+   }
+  ],
+  "overlay": null
+ },
+ "49": {
+  "vis": 287,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:reports",
+    "in": 0,
+    "frames": 287,
+    "fx": {
+     "p": {
+      "mode": "fill"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "50": {
+  "vis": 353,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:card",
+    "in": 0,
+    "frames": 353,
+    "fx": {
+     "p": {
+      "kick": "PITMAN ET AL. \u00b7 MARINE MAMMAL SCIENCE \u00b7 2017",
+      "big": "115 ENCOUNTERS",
+      "small": "humpbacks and killer whales"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "51": {
+  "vis": 206,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:approach",
+    "in": 0,
+    "frames": 206,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "52": {
+  "vis": 361,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:bars",
+    "in": 0,
+    "frames": 361,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "53": {
+  "vis": 185,
+  "black": 30,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 268.0,
+    "frames": 185,
+    "fx": {},
+    "src_len": 6.167
+   }
+  ],
+  "overlay": null
+ },
+ "54": {
+  "vis": 340,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:reports",
+    "in": 0,
+    "frames": 340,
+    "fx": {
+     "p": {
+      "mode": "oceans"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "55": {
+  "vis": 251,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4569239085001",
+    "in": 20.0,
+    "frames": 251,
+    "fx": {},
+    "src_len": 8.367
+   }
+  ],
+  "overlay": null
+ },
+ "56": {
+  "vis": 181,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 122.0,
+    "frames": 181,
+    "fx": {},
+    "src_len": 6.033
+   }
+  ],
+  "overlay": null
+ },
+ "57": {
+  "vis": 209,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:ninety",
+    "in": 0,
+    "frames": 209,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "58": {
+  "vis": 64,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4419966618001",
+    "in": 40.0,
+    "frames": 64,
+    "fx": {},
+    "src_len": 2.133
+   }
+  ],
+  "overlay": null
+ },
+ "59": {
+  "vis": 92,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4084857759001",
+    "in": 60.0,
+    "frames": 92,
+    "fx": {},
+    "src_len": 3.067
+   }
+  ],
+  "overlay": null
+ },
+ "60": {
+  "vis": 255,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:prey",
+    "in": 0,
+    "frames": 255,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "61": {
+  "vis": 379,
+  "black": 60,
+  "shots": [
+   {
+    "src": "noaa_5352712499001",
+    "in": 6.0,
+    "frames": 379,
+    "fx": {},
+    "src_len": 12.633
+   }
+  ],
+  "overlay": null
+ },
+ "62": {
+  "vis": 189,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 225.0,
+    "frames": 189,
+    "fx": {},
+    "src_len": 6.3
+   }
+  ],
+  "overlay": null
+ },
+ "63": {
+  "vis": 250,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:rake",
+    "in": 0,
+    "frames": 250,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "64": {
+  "vis": 206,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:card",
+    "in": 0,
+    "frames": 206,
+    "fx": {
+     "p": {
+      "kick": "ADULTS WITH RAKE MARKS",
+      "big": "UP TO 1 IN 3",
+      "small": "in some populations",
+      "color": "#f2b866"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "65": {
+  "vis": 227,
+  "black": 0,
+  "shots": [
+   {
+    "src": "wm_28",
+    "in": 70.0,
+    "frames": 227,
+    "fx": {},
+    "src_len": 7.567
+   }
+  ],
+  "overlay": null
+ },
+ "66": {
+  "vis": 343,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:shield",
+    "in": 0,
+    "frames": 343,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "67": {
+  "vis": 293,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:wa",
+    "in": 0,
+    "frames": 293,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "68": {
+  "vis": 324,
+  "black": 0,
+  "shots": [
+   {
+    "src": "wm_28",
+    "in": 59.0,
+    "frames": 324,
+    "fx": {},
+    "src_len": 10.8
+   }
+  ],
+  "overlay": null
+ },
+ "69": {
+  "vis": 334,
+  "black": 30,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 20.0,
+    "frames": 334,
+    "fx": {},
+    "src_len": 11.133
+   }
+  ],
+  "overlay": null
+ },
+ "70": {
+  "vis": 251,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1105831255001",
+    "in": 250.0,
+    "frames": 251,
+    "fx": {},
+    "src_len": 8.367
+   }
+  ],
+  "overlay": null
+ },
+ "71": {
+  "vis": 188,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 200.0,
+    "frames": 188,
+    "fx": {},
+    "src_len": 6.267
+   }
+  ],
+  "overlay": null
+ },
+ "72": {
+  "vis": 350,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:swing",
+    "in": 0,
+    "frames": 350,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "73": {
+  "vis": 251,
+  "black": 0,
+  "shots": [
+   {
+    "src": "wm_h2",
+    "in": 14.0,
+    "frames": 251,
+    "fx": {
+     "zoom": 1.1
+    },
+    "src_len": 8.367
+   }
+  ],
+  "overlay": null
+ },
+ "74": {
+  "vis": 280,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:calls",
+    "in": 0,
+    "frames": 280,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "75": {
+  "vis": 261,
+  "black": 0,
+  "shots": [
+   {
+    "src": "wm_h1",
+    "in": 0.0,
+    "frames": 261,
+    "fx": {},
+    "src_len": 8.7
+   }
+  ],
+  "overlay": null
+ },
+ "76": {
+  "vis": 337,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:escort",
+    "in": 0,
+    "frames": 337,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "77": {
+  "vis": 327,
+  "black": 60,
+  "shots": [
+   {
+    "src": "noaa_4569239085001",
+    "in": 200.0,
+    "frames": 327,
+    "fx": {},
+    "src_len": 10.9
+   }
+  ],
+  "overlay": null
+ },
+ "78": {
+  "vis": 211,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_5352712499001",
+    "in": 60.0,
+    "frames": 211,
+    "fx": {},
+    "src_len": 7.033
+   }
+  ],
+  "overlay": null
+ },
+ "79": {
+  "vis": 359,
+  "black": 0,
+  "shots": [
+   {
+    "src": "wm_28",
+    "in": 29.0,
+    "frames": 359,
+    "fx": {},
+    "src_len": 11.967
+   }
+  ],
+  "overlay": null
+ },
+ "80": {
+  "vis": 288,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:silent",
+    "in": 0,
+    "frames": 288,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "81": {
+  "vis": 306,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 44.0,
+    "frames": 306,
+    "fx": {},
+    "src_len": 10.2
+   }
+  ],
+  "overlay": null
+ },
+ "82": {
+  "vis": 475,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:decide",
+    "in": 0,
+    "frames": 475,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "83": {
+  "vis": 345,
+  "black": 60,
+  "shots": [
+   {
+    "src": "noaa_4419966618001",
+    "in": 222.0,
+    "frames": 345,
+    "fx": {},
+    "src_len": 11.5
+   }
+  ],
+  "overlay": null
+ },
+ "84": {
+  "vis": 130,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1105831255001",
+    "in": 170.0,
+    "frames": 130,
+    "fx": {},
+    "src_len": 4.333
+   }
+  ],
+  "overlay": null
+ },
+ "85": {
+  "vis": 440,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_2221891724001",
+    "in": 118.0,
+    "frames": 440,
+    "fx": {},
+    "src_len": 14.667
+   }
+  ],
+  "overlay": null
+ },
+ "86": {
+  "vis": 447,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:chest",
+    "in": 0,
+    "frames": 447,
+    "fx": {
+     "p": {
+      "stage": 1,
+      "wide": true
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "87": {
+  "vis": 338,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:song",
+    "in": 0,
+    "frames": 338,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "88": {
+  "vis": 233,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 100.0,
+    "frames": 233,
+    "fx": {},
+    "src_len": 7.767
+   }
+  ],
+  "overlay": null
+ },
+ "89": {
+  "vis": 432,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:card",
+    "in": 0,
+    "frames": 432,
+    "fx": {
+     "p": {
+      "kick": "ROBERT PITMAN (PARAPHRASED)",
+      "big": "COMPASSION?",
+      "small": "when humans protect another species, we call it compassion"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "90": {
+  "vis": 354,
+  "black": 60,
+  "shots": [
+   {
+    "src": "noaa_5352712499001",
+    "in": 120.0,
+    "frames": 354,
+    "fx": {},
+    "src_len": 11.8
+   }
+  ],
+  "overlay": null
+ },
+ "91": {
+  "vis": 308,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:card",
+    "in": 0,
+    "frames": 308,
+    "fx": {
+     "p": {
+      "kick": "THE 20TH CENTURY",
+      "big": "COMMERCIAL WHALING",
+      "color": "#e2583e"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "92": {
+  "vis": 318,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:popcurve",
+    "in": 0,
+    "frames": 318,
+    "fx": {
+     "p": {}
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "93": {
+  "vis": 270,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:card",
+    "in": 0,
+    "frames": 270,
+    "fx": {
+     "p": {
+      "kick": "A TURNING POINT",
+      "big": "1966",
+      "small": "humpbacks protected worldwide",
+      "size": 160
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "94": {
+  "vis": 278,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:popcurve",
+    "in": 0,
+    "frames": 278,
+    "fx": {
+     "p": {
+      "rise": true
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "95": {
+  "vis": 314,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:photoid",
+    "in": 0,
+    "frames": 314,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ },
+ "96": {
+  "vis": 210,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_2221891724001",
+    "in": 42.0,
+    "frames": 210,
+    "fx": {},
+    "src_len": 7.0
+   }
+  ],
+  "overlay": null
+ },
+ "97": {
+  "vis": 459,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:reports",
+    "in": 0,
+    "frames": 459,
+    "fx": {
+     "p": {
+      "mode": "new"
+     }
+    }
+   }
+  ],
+  "overlay": null
+ },
+ "98": {
+  "vis": 290,
+  "black": 60,
+  "shots": [
+   {
+    "src": "noaa_4569239085001",
+    "in": 225.0,
+    "frames": 290,
+    "fx": {},
+    "src_len": 9.667
+   }
+  ],
+  "overlay": null
+ },
+ "99": {
+  "vis": 222,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1105831255001",
+    "in": 124.0,
+    "frames": 222,
+    "fx": {},
+    "src_len": 7.4
+   }
+  ],
+  "overlay": null
+ },
+ "100": {
+  "vis": 103,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 30.0,
+    "frames": 103,
+    "fx": {},
+    "src_len": 3.433
+   }
+  ],
+  "overlay": null
+ },
+ "101": {
+  "vis": 369,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_4084857759001",
+    "in": 100.0,
+    "frames": 369,
+    "fx": {},
+    "src_len": 12.3
+   }
+  ],
+  "overlay": null
+ },
+ "102": {
+  "vis": 400,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_3911325489001",
+    "in": 275.0,
+    "frames": 133,
+    "fx": {},
+    "src_len": 4.433
+   },
+   {
+    "src": "noaa_1092315332001",
+    "in": 60.0,
+    "frames": 133,
+    "fx": {},
+    "src_len": 4.433
+   },
+   {
+    "src": "wm_28",
+    "in": 56.0,
+    "frames": 134,
+    "fx": {},
+    "src_len": 4.467
+   }
+  ],
+  "overlay": null
+ },
+ "103": {
+  "vis": 358,
+  "black": 0,
+  "shots": [
+   {
+    "src": "noaa_1105831255001",
+    "in": 200.0,
+    "frames": 358,
+    "fx": {},
+    "src_len": 11.933
+   }
+  ],
+  "overlay": null
+ },
+ "104": {
+  "vis": 268,
+  "black": 90,
+  "shots": [
+   {
+    "src": "noaa_5352712499001",
+    "in": 180.0,
+    "frames": 268,
+    "fx": {
+     "push": true
+    },
+    "src_len": 8.933
+   }
+  ],
+  "overlay": null
+ },
+ "105": {
+  "vis": 607,
+  "black": 0,
+  "shots": [
+   {
+    "src": "G:endcard",
+    "in": 0,
+    "frames": 607,
+    "fx": {}
+   }
+  ],
+  "overlay": null
+ }
+}
