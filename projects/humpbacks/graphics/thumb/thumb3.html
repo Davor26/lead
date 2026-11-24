@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#000}svg{position:absolute;inset:0;width:1280px;height:720px}
+.T{position:absolute;left:46px;top:34px;font-family:'Inter Display',Inter,sans-serif;font-weight:900;font-size:120px;line-height:.93;color:#fff;letter-spacing:-1.5px;text-shadow:0 6px 24px rgba(0,0,0,.95)}
+.T b{color:#e5231f}
+</style><script src="../lib.js"></script><script>const G={};</script><script src="../specs_base.js"></script><script src="../specs_humpbacks.js"></script></head><body><div id="s"></div>
+<div class="T">WHY SAVE<br>A <b>SEAL?</b></div>
+<script>
+const wy=640,t=0.6;
+let s=`<rect width="${W}" height="${H}" fill="#06192b"/><rect width="${W}" height="${wy}" fill="#2a4a66"/>`;
+s+=`<radialGradient id="sky" cx="75%" cy="20%" r="60%"><stop offset="0" stop-color="#9fc4dc" stop-opacity=".55"/><stop offset="1" stop-color="#9fc4dc" stop-opacity="0"/></radialGradient><rect width="${W}" height="${wy}" fill="url(#sky)"/>`;
+
+s+=`<g transform="translate(1180,${wy+80}) scale(1.35) translate(-1180,${-(wy+80)})">`+hump(1180,wy+80,3.4,{belly:true,flipRot:-10,fill:'#26384a'})+seal(1330,wy-20,2.3,{fill:'#9aa7b2'})+'</g>';
+s+=waterline(t,wy+30,{op:0.5,amp:8});
+[[300,0.95],[520,0.8],[760,1.05]].forEach(([x,sc],i)=>s+=fin(x,wy+20,1.6*sc));
+s+=orca(420,900,2.6,{opacity:.9})+orca(820,980,2.0,{opacity:.7});
+s+=`<path d="M1010,380 C1060,450 1120,520 1180,560" fill="none" stroke="#e5231f" stroke-width="12" stroke-linecap="round"/><path d="M1140,566 L1192,572 L1176,522" fill="none" stroke="#e5231f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>`;
+document.getElementById('s').innerHTML=svgWrap(s,0).replace('<svg ','<svg preserveAspectRatio="xMidYMid slice" ');
+</script></body></html>
